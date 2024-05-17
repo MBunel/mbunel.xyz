@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+    - main
+jobs:
+  build:
+    name: Make website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install GNU Guix
+        uses: PromyLOPh/guix-install-action@v1.5
+      - name: Install packages
+        run: guix pack -m manifest.scm
+      
+            
