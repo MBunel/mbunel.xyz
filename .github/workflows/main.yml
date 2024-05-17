@@ -6,19 +6,8 @@ jobs:
   build:
     name: Make website
     runs-on: ubuntu-latest
-    steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."
-      - name: Guix cache
+    seps:
+      - name: Guix Cache
         uses: actions/cache@v4
         with:
           path: ~/.cache/guix
@@ -26,12 +15,12 @@ jobs:
           key: guix-cache-${{ github.sha }}
           restore-keys: |
             guix-cache-
-      - name: print
-        run: ls -l
       # Cannot use a cache for /gnu/store, since restore fails
       - name: Install GNU Guix
-        uses: PromyLOPh/guix-install-action@v1.5
+        uses: PromyLOPh/guix-install-action@v1.5:
+      - name: Check out repository code
+        uses: actions/checkout@v4
       - name: Install packages
-        run: guix pack -m manifest.scm
+        run: guix pack -m ${{ github.workspace }}/manifest.scm
       
             
