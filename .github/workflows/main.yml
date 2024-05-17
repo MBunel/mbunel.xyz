@@ -22,10 +22,10 @@ jobs:
           pullAfterInstall: false
       - name: Check out repository code
         uses: actions/checkout@v4
-      - name: Install packages
-        run: guix install emacs #package -m ${{ github.workspace }}/manifest.scm
       - name: build site
-        run: emacs -Q -l publish.el
+        run: |
+          guix shell -m manifest.scm
+          emacs -Q -l publish.el
         working-directory: ${{ github.workspace }}
       
             
