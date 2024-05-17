@@ -18,9 +18,14 @@ jobs:
       # Cannot use a cache for /gnu/store, since restore fails
       - name: Install GNU Guix
         uses: PromyLOPh/guix-install-action@v1.5
+        with:
+          pullAfterInstall: false
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Install packages
         run: guix pack -m ${{ github.workspace }}/manifest.scm
+      - name: build site
+        run: emacs -Q -l publish.el
+        working-directory: ${{ github.workspace }}
       
             
