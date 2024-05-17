@@ -3,4 +3,4 @@
  'package-archives
  '("melpa" . "http://melpa.org/packages/"))
 (package-refresh-contents)
-(package-install "weblorg")
+(package-install 'weblorg)
