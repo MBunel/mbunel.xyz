@@ -23,9 +23,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: build site
-        run: |
-          guix shell -m manifest.scm
-          emacs -Q -l publish.el
+        run: guix shell -m manifest.scm -- emacs -Q -l publish.el
         working-directory: ${{ github.workspace }}
       
             
