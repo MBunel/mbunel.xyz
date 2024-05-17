@@ -6,7 +6,7 @@ jobs:
   build:
     name: Make website
     runs-on: ubuntu-latest
-    seps:
+    steps:
       - name: Guix Cache
         uses: actions/cache@v4
         with:
