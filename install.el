@@ -5,3 +5,4 @@
 (package-refresh-contents)
 (package-install 'weblorg)
 (package-install 'htmlize)
+(package-install 'citeproc)
