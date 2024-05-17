@@ -1,0 +1,346 @@
+@charset "UTF-8";
+@import "catppuccin.css";
+
+:root {
+    /* Background */
+    --background: var(--base);
+    --on-background: var(--overlay);
+    --on-background-variant-subtle: var(--blue);
+    --on-background-variant-muted: var(--teal);
+    --on-background-variant-active: var(--green);
+    --on-background-variant-hover: var(--sky);
+    --on-background-variant-focus: var(--lavender);
+    
+    --surface: var(--surface0);
+    --on-surface: var(--surface2);
+    
+    /* Text */
+    --foreground: var(--text);
+    --on-foreground: var(--subtext1);
+
+    --attention-1: var(--rosewater);
+    --attention-2: var(--mauve);
+    --attention-3: var(--red);
+    --attention-4: var(--maroon);
+
+    --selection: var(--selection-color);
+    --on-selection: var(--inverted-text);
+
+    --link: var(--blue);
+    --visited-link: var(--sapphire);
+}
+
+
+/* Fonts imports*/
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./SpaceMono-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("./SpaceMono-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./SpaceMono-Italic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url("./SpaceMono-BoldItalic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-display: swap;
+    src: url("./LibreFranklin-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: italic;
+    font-optical-sizing: auto;
+    font-display: swap;
+    src: url("./LibreFranklin-Italic-VariableFont_wght.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("LibreBaskerville-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("./LibreBaskerville-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./LibreBaskerville-Italic.ttf") format('truetype');
+}
+
+
+/* Layout */
+::selection {
+    background: var(--selection);
+    color: var(--on-selection);
+}
+
+/* Layout */
+html {
+    //line-height:1.15;
+}
+
+header, footer {
+    font-family: "Libre Franklin", sans;
+}
+
+header {
+    /* Flex content */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Margins */
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    /* Font */
+    font-weight: bold;
+    nav {
+	
+	ul {
+	    margin: 0;
+	    padding: 0;
+	    
+	    li {
+		display: inline;
+		margin-left: 1em;
+	    }
+	}
+	
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    h1 {
+	font-size: 175%;
+	margin-left: 1em;
+    }
+
+}
+
+.avatar {
+    width:100px;
+    height:100px;
+    img {
+	border-radius:50%;
+	width:100%;
+	height:100%
+    }
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: small;
+    line-height: 1;
+}
+
+
+body {
+    /* Layout */
+    max-width: 70rem;
+    min-height:100vh;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    
+    /* Colors */
+    background-color: var(--background);
+    color: var(--foreground);
+    
+    /* Fonts */
+    font-family:"Libre Baskerville", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
+}
+
+header, footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+main {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+h1, h2, h3 {
+    font-family: "Libre Franklin",sans;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 300%;
+}
+
+nav {
+
+}
+
+
+hgroup {
+    line-height:1.25;
+}
+
+hgroup > h1 {
+    margin:0;
+}
+
+hgroup > p {
+    font-family: "Libre Franklin",sans;
+    font-weight: bold;
+    font-size: large;
+    margin: 0;
+}
+
+
+blockquote {
+  margin-bottom: 10px;
+  padding: 0.5em;
+  background-color: var(--mantle);
+  border-left: 4px solid var(--crust);
+  box-shadow: 0.1em 0.2em 0.2em var(--crust);
+}
+
+.csl-bib-body {
+    /* No bibliography justify*/
+    text-align:left;
+}
+
+/* Links */
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--visited-link);
+} /* Liens visités */
+
+a:hover {
+    text-decoration: underline;
+} /* Liens survolés */
+
+a:active {
+    color: var(--on-background-variant-active);
+} /* Liens actifs */
+
+pre, kbd {
+    font-family: "Space Mono", "DejaVu Sans Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+kbd {
+    background-color: var(--mantle);
+    box-shadow: 0.1em 0.2em 0.2em var(--crust);
+    padding: 0.1em 0.2em;
+}
+
+/* Source Code */
+.org-src-container {
+    padding: 10px;
+    box-shadow: 0.1em 0.2em 0.2em var(--crust);
+    background:var(--mantle);
+}
+
+
+.src {
+    .org-keyword {
+	color: var(--lavender);
+	font-weight:bold;
+    }
+
+    .org-comment, .org-comment-delimiter {
+	color: var(--subtext0);
+	font-style: italic;
+    }
+    .org-builtin {
+	color:var(--blue);
+    }
+    .org-string {
+	color: var(--flamingo);
+    }
+    .org-variable-name {
+	color: var(--maroon);
+    }
+
+}
+
+/* Listes */
+ul {
+    // list-style-type: none;
+}
+
+
+/* Tables */
+table {
+    margin:1em auto;
+    border-top:2px solid;
+    border-collapse:collapse
+}
+
+table, thead {
+    border-bottom:2px solid;
+}
+
+table td+td, table th+th {
+    border-left:1px solid;
+}
+
+tbody {
+    border-top: 1px solid;
+}
+
+td,th {
+    padding:.3em .6em;
+    vertical-align:middle
+}

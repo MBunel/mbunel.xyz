@@ -1,0 +1,4 @@
+#+TITLE: À propos
+#+SLUG:a-propos
+
+Ce site utilise la palette [[https://catppuccin.com/][Catppuccin]] et les polices [[https://github.com/impallari/Libre-Baskerville][Libre Baskerville]], [[https://github.com/impallari/Libre-Franklin][Libre Franklin]] et [[https://github.com/googlefonts/spacemono][Space Mono]].
