@@ -17,7 +17,7 @@ jobs:
             guix-cache-
       # Cannot use a cache for /gnu/store, since restore fails
       - name: Install GNU Guix
-        uses: PromyLOPh/guix-install-action@v1.5:
+        uses: PromyLOPh/guix-install-action@v1.5
       - name: Check out repository code
         uses: actions/checkout@v4
       - name: Install packages
