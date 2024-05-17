@@ -6,7 +6,7 @@
 (setq org-html-htmlize-output-type 'css)
 
 ; IF PRODUCTION
-(setq weblorg-default-url "https://mbunel.github.io/mbunel.xyz")
+(setq weblorg-default-url "https://mbunel.xyz")
 
 (weblorg-site
  :theme nil
