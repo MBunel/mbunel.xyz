@@ -181,7 +181,9 @@ footer {
 body {
     /* Layout */
     max-width: 70rem;
-    min-height:100vh;
+    min-height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
     display: flex;
     flex-direction:column;
