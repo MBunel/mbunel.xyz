@@ -13,7 +13,7 @@
     {% if site_keywords is defined %}<meta name="keywords" content="{{ site_keywords }}" />{% endif %}
     {% block meta %}{% endblock %}
     <!-- Rss -->
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for petefreitag.com"  href="/feed.xml" />
+    <!--link rel="alternate" type="application/rss+xml" title="RSS Feed"  href="{{ url_for("feed") }}" /-->
     <link rel="stylesheet" href="{{ url_for("static", file="style.css") }}" type="text/css" />
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="{{ url_for("static", file="apple-icon-57x57.png") }}">

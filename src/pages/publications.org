@@ -1,12 +1,12 @@
 #+TITLE:Publications
 #+LANGUAGE:fr
 #+OPTIONS: num:nil toc:nil
-#+cite_export: csl ./isara-iso-690.csl
+#+cite_export: csl ./chicago-author-date-fr.csl
 #+bibliography: biblio.bib
 [cite/n:@*]
 
 * Articles 
-#+print_bibliography: :keyword A
+#+print_bibliography: :keyword AICL
 
 * Chapitres d'ouvrages :noexport:
 
@@ -17,6 +17,6 @@
 * Articles et chapitres sans comité de lecture :noexport:
 
 * Autres
-#+print_bibliography: :notkeyword A
+#+print_bibliography: :notkeyword AICL
 
 
