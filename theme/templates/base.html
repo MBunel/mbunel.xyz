@@ -63,7 +63,7 @@
     {% endblock %}
 
     {# Probably where most of the action will happen #}
-    <main id="main">
+    <main>
       {% block main %}{% endblock %}
     </main>
 
@@ -71,7 +71,7 @@
     {% block footer %}
     <footer>
       <p>Mattia Bunel, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA</a>, 2024.</p>
-      <p>Fabriqué à coups de <kbd>M-x</kbd> avec <a href="https://emacs.love/weblorg" target="_blank">Weblorg</a> et <a href="https://guix.gnu.org/" target="_blank">Guix</a></p>
+      <p>Fabriqué le {{ now() | strftime("%d %b %Y") }}, à coups de <kbd>M-x</kbd> avec <a href="https://emacs.love/weblorg" target="_blank">Weblorg</a> et <a href="https://guix.gnu.org/" target="_blank">Guix</a>.</p>
     </footer>
     {% endblock %}
   </body>

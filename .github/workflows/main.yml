@@ -3,6 +3,9 @@ on:
     branches:
     - main
 
+env:
+  WEBLORG_ENV: prod
+
 # Allows you to run this workflow maanually from the Actions tab
   workflow_dispatch:
 

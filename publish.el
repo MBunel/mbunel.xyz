@@ -5,8 +5,10 @@
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
 
-; IF PRODUCTION
-(setq weblorg-default-url "https://mbunel.xyz")
+;; Definie main url
+(if (string= (getenv "WEBLORG_ENV") "prod")
+    (setq weblorg-default-url "https://mbunel.xyz")
+  (setq weblorg-default-url "http://localhost:8081"))
 
 (weblorg-site
  :theme nil

@@ -4,7 +4,7 @@
 :root {
     /* Background */
     --background: var(--base);
-    --on-background: var(--overlay);
+    --on-background: var(--overlay0);
     --on-background-variant-subtle: var(--blue);
     --on-background-variant-muted: var(--teal);
     --on-background-variant-active: var(--green);
@@ -113,7 +113,7 @@
 
 /* Layout */
 html {
-    //line-height:1.15;
+    font-size: 14px;
 }
 
 header, footer {
@@ -127,13 +127,15 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* Margins */
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    /* Padding */
+    padding-top: 10px;
+    padding-bottom: 10px;
     /* Font */
     font-weight: bold;
+    /* Border */
+    border-bottom: 1px solid var(--on-background);
     nav {
-	
+	font-size: 125%;
 	ul {
 	    margin: 0;
 	    padding: 0;
@@ -141,6 +143,9 @@ header {
 	    li {
 		display: inline;
 		margin-left: 1em;
+	    }
+	    li:first-child {
+		margin-left:0;
 	    }
 	}
 	
@@ -153,8 +158,9 @@ header {
     flex-wrap: wrap;
     align-items: center;
     h1 {
-	font-size: 175%;
+	font-size: 200%;
 	margin-left: 1em;
+	margin-right: 1em;
     }
 
 }
@@ -175,6 +181,7 @@ footer {
     margin-top: 2rem;
     font-size: small;
     line-height: 1;
+    border-top: 1px solid var(--on-background);
 }
 
 
