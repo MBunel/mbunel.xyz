@@ -8,7 +8,8 @@
 * Articles 
 #+print_bibliography: :keyword AICL
 
-* Chapitres d'ouvrages :noexport:
+* Chapitres d'ouvrages
+#+print_bibliography: :keyword ChCL
 
 * Conférences :noexport:
 
