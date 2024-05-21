@@ -2,13 +2,7 @@ on:
   push:
     branches:
     - main
-
-env:
-  WEBLORG_ENV: prod
-
-# Allows you to run this workflow maanually from the Actions tab
-  workflow_dispatch:
-
+    
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -46,6 +40,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Build
         run: guix shell -m manifest.scm -- emacs -Q --batch -l install.el -l publish.el
+        env:
+          WEBLORG_ENV: prod
         working-directory: ${{ github.workspace }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
