@@ -30,7 +30,6 @@
     --visited-link: var(--sapphire);
 }
 
-
 /* Fonts imports*/
 @font-face {
     font-family: 'Space Mono';
@@ -104,7 +103,6 @@
     src: url("./LibreBaskerville-Italic.ttf") format('truetype');
 }
 
-
 /* Layout */
 ::selection {
     background: var(--selection);
@@ -133,22 +131,24 @@ header {
     font-weight: bold;
     /* Border */
     border-bottom: 2px solid var(--on-background);
-    nav {
-	font-size: 125%;
-	ul {
-	    margin: 0;
-	    padding: 0;
-	    
-	    li {
-		display: inline;
-		margin-left: 1em;
-	    }
-	    li:first-child {
-		margin-left:0;
-	    }
-	}
-	
-    }
+}
+
+header nav {
+    font-size: 125%;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1em;
+}
+
+header nav ul li:first-child {
+    margin-left:0;
 }
 
 .title {
@@ -156,24 +156,17 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    h1 {
-	font-size: 200%;
-	margin-left: 1em;
-	margin-right: 1em;
-    }
-
 }
 
-.avatar {
-    width:100px;
-    height:100px;
-    img {
-	border-radius:50%;
-	width:100%;
-	height:100%
-    }
+.title h1 {
+    font-size: 200%;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
+.avatar img {
+    border-radius:50%;
+}
 
 footer {
     text-align: center;
@@ -182,7 +175,6 @@ footer {
     line-height: 1;
     border-top: 2px solid var(--on-background);
 }
-
 
 body {
     /* Layout */
@@ -219,7 +211,6 @@ main {
     flex-basis: auto;
 }
 
-
 h1, h2, h3 {
     font-family: "Libre Franklin",sans;
     font-weight: bold;
@@ -232,7 +223,6 @@ h1 {
 nav {
 
 }
-
 
 hgroup {
     line-height:1.25;
@@ -251,11 +241,11 @@ hgroup > p {
 
 
 blockquote {
-  margin-bottom: 10px;
-  padding: 0.5em;
-  background-color: var(--mantle);
-  border-left: 4px solid var(--crust);
-  box-shadow: 0.1em 0.2em 0.2em var(--crust);
+    margin-bottom: 10px;
+    padding: 0.5em;
+    background-color: var(--mantle);
+    border-left: 4px solid var(--crust);
+    box-shadow: 0.1em 0.2em 0.2em var(--crust);
 }
 
 .csl-bib-body {
@@ -300,34 +290,28 @@ kbd {
     background:var(--mantle);
 }
 
+.org-keyword {
+    color: var(--lavender);
+    font-weight:bold;
+}
 
-.src {
-    .org-keyword {
-	color: var(--lavender);
-	font-weight:bold;
-    }
+.org-comment, .org-comment-delimiter {
+    color: var(--subtext0);
+    font-style: italic;
+}
 
-    .org-comment, .org-comment-delimiter {
-	color: var(--subtext0);
-	font-style: italic;
-    }
-    .org-builtin {
-	color:var(--blue);
-    }
-    .org-string {
-	color: var(--flamingo);
-    }
-    .org-variable-name {
-	color: var(--maroon);
-    }
+.org-builtin {
+    color:var(--blue);
+}
 
+.org-string {
+    color: var(--flamingo);
 }
 
 /* Listes */
 ul {
     // list-style-type: none;
 }
-
 
 /* Tables */
 table {
