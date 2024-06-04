@@ -42,6 +42,7 @@ jobs:
         run: guix shell -m manifest.scm -- emacs -Q --batch -l install.el -l publish.el
         env:
           WEBLORG_ENV: prod
+          LANG: fr_FR.UTF-8
         working-directory: ${{ github.workspace }}
       - name: Setup Pages
         uses: actions/configure-pages@v5
