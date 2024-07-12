@@ -114,6 +114,28 @@ html {
     font-size: 14px;
 }
 
+body {
+    /* Layout */
+    max-width: 70rem;
+    min-height: 100vh;
+    padding: 0 20px 0 20px;
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+    
+    /* Colors */
+    background-color: var(--background);
+    color: var(--foreground);
+    
+    /* Fonts */
+    font-family:"Libre Baskerville", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
+}
+
 header, footer {
     font-family: "Libre Franklin", sans;
     /* Border and shadow*/
@@ -127,6 +149,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-between;
     align-items: center;
     /* Padding */
@@ -161,6 +184,7 @@ header nav ul li:first-child {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    flex-grow: 1;
 }
 
 .title h1 {
@@ -180,28 +204,6 @@ footer {
     line-height: 1;
     margin-bottom: 10px;
     /* border-top: 2px solid var(--on-background); */
-}
-
-body {
-    /* Layout */
-    max-width: 70rem;
-    min-height: 100vh;
-    /* padding: 10px 10px 10px 10px; */
-    margin: auto;
-    display: flex;
-    flex-direction:column;
-    
-    /* Colors */
-    background-color: var(--background);
-    color: var(--foreground);
-    
-    /* Fonts */
-    font-family:"Libre Baskerville", serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: justify;
-    hyphens: auto;
 }
 
 header, footer {
@@ -226,7 +228,7 @@ h1 {
 }
 
 nav {
-
+    margin: auto;
 }
 
 hgroup {
@@ -243,8 +245,6 @@ hgroup > p {
     font-size: large;
     margin: 0;
 }
-
-
 
 .org-src-container, blockquote {
     box-shadow: 10px 10px 0 -5px var(--attention-1);
