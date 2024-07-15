@@ -110,18 +110,19 @@
 }
 
 /* Layout */
-html {
-    font-size: 14px;
+@media (min-width: 1000px) {
+    html {
+	font-size: 14px;
+    }
 }
 
-
-@media (min-width: 1000px) {
+@media (max-width: 1000px) {
     html {
 	font-size: 12px;
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     html {
 	font-size: 10px;
     }
@@ -216,8 +217,10 @@ footer {
     margin-top: 2rem;
     font-size: small;
     line-height: 1;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     /* border-top: 2px solid var(--on-background); */
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header, footer {
