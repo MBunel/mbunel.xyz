@@ -34,54 +34,54 @@
  :url "/{{ slug }}.html")
 
 ;; List of blog posts
-(weblorg-route
- :name "blog"
- :input-pattern "src/posts/*.org"
- :input-aggregate #'weblorg-input-aggregate-all-desc
- :template "blog.html"
- :output "output/billets.html"
- :url "/billets.html")
+;; (weblorg-route
+;;  :name "blog"
+;;  :input-pattern "src/posts/*.org"
+;;  :input-aggregate #'weblorg-input-aggregate-all-desc
+;;  :template "blog.html"
+;;  :output "output/billets.html"
+;;  :url "/billets.html")
 
-(weblorg-route
- :name "categories"
- :input-pattern "src/posts/*.org"
- :input-aggregate #'weblorg-input-aggregate-by-category
+;; (weblorg-route
+;;  :name "categories"
+;;  :input-pattern "src/posts/*.org"
+;;  :input-aggregate #'weblorg-input-aggregate-by-category
  
- :template "category.html"
- :output "output/tags/{{ name }}.html"
- :url "/tags/{{ name }}.html")
+;;  :template "category.html"
+;;  :output "output/tags/{{ name }}.html"
+;;  :url "/tags/{{ name }}.html")
 
-(weblorg-route
- :name "posts"
- :input-pattern "src/posts/*.org"
- :template "post.html"
- :output "output/posts/{{ slug }}.html"
- :url "/posts/{{ slug }}.html")
+;; (weblorg-route
+;;  :name "posts"
+;;  :input-pattern "src/posts/*.org"
+;;  :template "post.html"
+;;  :output "output/posts/{{ slug }}.html"
+;;  :url "/posts/{{ slug }}.html")
 
-;; ;; Blog RSS
-(weblorg-route
- :name "feed"
- :input-pattern "src/posts/*.org"
- :input-aggregate #'weblorg-input-aggregate-all-desc
- :template "feed.xml"
- :output "output/feed.xml"
- :url "/feed.xml")
+;; Blog RSS
+;; (weblorg-route
+;;  :name "feed"
+;;  :input-pattern "src/posts/*.org"
+;;  :input-aggregate #'weblorg-input-aggregate-all-desc
+;;  :template "feed.xml"
+;;  :output "output/feed.xml"
+;;  :url "/feed.xml")
 
 ;; Cours
-(weblorg-route
- :name "cours"
- :input-pattern "src/cours/*.org"
- :template "page.html"
- :output "output/cours/{{ slug }}.html"
- :url "/cours/{{ slug }}.html")
+;; (weblorg-route
+;;  :name "cours"
+;;  :input-pattern "src/cours/*.org"
+;;  :template "page.html"
+;;  :output "output/cours/{{ slug }}.html"
+;;  :url "/cours/{{ slug }}.html")
 
-(weblorg-route
- :name "pages_cours"
- :input-pattern "src/cours/*.org"
- :input-aggregate #'weblorg-input-aggregate-all-desc
- :template "cours.html"
- :output "output/cours.html"
- :url "/cours.html")
+;; (weblorg-route
+;;  :name "pages_cours"
+;;  :input-pattern "src/cours/*.org"
+;;  :input-aggregate #'weblorg-input-aggregate-all-desc
+;;  :template "cours.html"
+;;  :output "output/cours.html"
+;;  :url "/cours.html")
 
 ;; Static
 (weblorg-route
