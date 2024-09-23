@@ -33,8 +33,14 @@
     </div>
     {% endif %}
     {% if post.filetags is defined %}
-    <div>
-      {{ post.filetags}}
+    <div class="post-tags">
+      <ul>
+	{% for filetag in post.filetags %}
+	<li>
+          <a href="{{ url_for("categories", name=filetag) }}"><span class="tag">#{{ filetag }}</span></a>
+	</li>
+	{% endfor %}
+      </ul>
     </div>
     {% endif %}
   </section>

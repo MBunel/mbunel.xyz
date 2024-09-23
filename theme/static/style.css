@@ -233,6 +233,8 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
+    margin-left:1em;
+    margin-right:1em;
 }
 
 h1, h2, h3 {
@@ -253,14 +255,14 @@ hgroup {
 }
 
 hgroup > h1 {
-    margin:0;
+    margin-bottom:0;
 }
 
 hgroup > p {
     font-family: "Libre Franklin",sans;
     font-weight: bold;
     font-size: large;
-    margin: 0;
+    margin-top: 0;
 }
 
 .org-src-containe {
@@ -341,6 +343,34 @@ kbd {
 ul {
     // list-style-type: none;
 }
+
+/* Tags */
+.post-tags {
+
+}
+
+.post-tags ul {
+    margin: 0;
+    padding: 0;
+}
+
+.post-tags ul li {
+    display: inline;
+    margin-left: 0.5em;
+    background-color: var(--mantle);
+    box-shadow: 0.1em 0.2em 0.2em var(--crust);
+    padding: 0.1em 0.2em;
+}
+
+.post-tags ul li:first-child {
+    margin-left:0;
+}
+
+.tag {
+    font-family: "Space Mono", "DejaVu Sans Mono", monospace;
+    font-style: normal;
+}
+
 
 /* Tables */
 table {
