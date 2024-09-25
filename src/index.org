@@ -1,5 +1,34 @@
 #+TITLE:Bonjour
 #+LANGUAGE:fr
 #+OPTIONS: toc:nil num:nil
+#+cite_export: csl ./meta/chicago-author-date-fr.csl
+#+bibliography: meta/biblio.bib
 
 Je suis Mattia Bunel, géographe et géomaticien, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
+
+Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en cours de mise à jour).
+
+* Actualités :noexport:
++ [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées,]] 2023, IGN
+
+* Liens utiles
+
+#+Attr_html: :style font-size:small; margin-bottom:2.5em;
+#+Begin_div
++ GitHub : https://github.com/MBunel
++ OCRID : https://orcid.org/0000-0001-7751-3507
++ Research Gate : https://www.researchgate.net/profile/Mattia-Bunel
++ HAL : https://cv.archives-ouvertes.fr/mattia-bunel
+#+end_div
+
+
+* Projets de recherche en cours :noexport:
+#+Begin_see
+Voir la [[url_for:pages,slug=projets][liste complète]].
+#+end_see
+
+* Dernières publications
+[cite/n:@Bunel2020;@Bunel2021b]
+#+print_bibliography:
+
+Voir la [[url_for:pages,slug=publications][liste complète]] de mes publications.

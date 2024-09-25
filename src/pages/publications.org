@@ -1,8 +1,8 @@
 #+TITLE:Publications
 #+LANGUAGE:fr
 #+OPTIONS: num:nil toc:nil
-#+cite_export: csl ./chicago-author-date-fr.csl
-#+bibliography: biblio.bib
+#+cite_export: csl ../meta/chicago-author-date-fr.csl
+#+bibliography: ../meta/biblio.bib
 [cite/n:@*]
 
 * Articles 

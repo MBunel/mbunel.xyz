@@ -2,18 +2,6 @@
 #+SLUG:a-propos
 #+OPTIONS: num:nil toc:nil
 
-Je suis géographe et géomaticien, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la plateforme géomatique. 
-
-* Liens utiles
-
-#+Attr_html: :style font-size:small; margin-bottom:2.5em;
-#+Begin_div
-+ GitHub : https://github.com/MBunel
-+ OCRID : https://orcid.org/0000-0001-7751-3507
-+ Research Gate : https://www.researchgate.net/profile/Mattia-Bunel
-+ HAL : https://cv.archives-ouvertes.fr/mattia-bunel
-#+end_div
-
 
 * À propos de la technique
 

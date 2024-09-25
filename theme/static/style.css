@@ -304,13 +304,13 @@ a:active {
     color: var(--on-background-variant-active);
 } /* Liens actifs */
 
-pre, kbd {
+pre, kbd, code {
     font-family: "Space Mono", "DejaVu Sans Mono", monospace;
     font-weight: 400;
     font-style: normal;
 }
 
-kbd {
+kbd, code {
     background-color: var(--mantle);
     box-shadow: 0.1em 0.2em 0.2em var(--crust);
     padding: 0.1em 0.2em;

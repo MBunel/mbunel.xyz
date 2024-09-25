@@ -1,7 +1,5 @@
 (package-initialize)
 (require 'weblorg)
-
-
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
 
@@ -33,7 +31,7 @@
  :output "output/{{ slug }}.html"
  :url "/{{ slug }}.html")
 
-;; List of blog posts
+;; ;; List of blog posts
 ;; (weblorg-route
 ;;  :name "blog"
 ;;  :input-pattern "src/posts/*.org"
@@ -58,16 +56,7 @@
 ;;  :output "output/posts/{{ slug }}.html"
 ;;  :url "/posts/{{ slug }}.html")
 
-;; Blog RSS
-;; (weblorg-route
-;;  :name "feed"
-;;  :input-pattern "src/posts/*.org"
-;;  :input-aggregate #'weblorg-input-aggregate-all-desc
-;;  :template "feed.xml"
-;;  :output "output/feed.xml"
-;;  :url "/feed.xml")
-
-;; Cours
+;; ;; Cours
 ;; (weblorg-route
 ;;  :name "cours"
 ;;  :input-pattern "src/cours/*.org"
@@ -80,8 +69,8 @@
 ;;  :input-pattern "src/cours/*.org"
 ;;  :input-aggregate #'weblorg-input-aggregate-all-desc
 ;;  :template "cours.html"
-;;  :output "output/cours.html"
-;;  :url "/cours.html")
+;;  :output "output/cours/cours.html"
+;;  :url "/cours/index.html")
 
 ;; Static
 (weblorg-route
@@ -92,6 +81,12 @@
 (weblorg-copy-static
   :output "output/static/{{ file }}"
   :url "/static/{{ file }}")
+
+;; ;; RSS
+;; (weblorg-route
+;;  :name "feed" :output "output/feed.xml"
+;;  :url "/feed.xml")
+
 
 (weblorg-export)
 (copy-directory "./src/static/" "./output/" nil t)
