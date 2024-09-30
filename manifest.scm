@@ -3,8 +3,7 @@
  (guix git-download)
  (guix build-system emacs)
  (gnu packages emacs)
- (gnu packages emacs-xyz)
- (gnu packages version-control))  ;for 'git'
+ (gnu packages emacs-xyz))
 
 
 (concatenate-manifests
