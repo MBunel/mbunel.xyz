@@ -10,6 +10,3 @@ Ce site est un site statique généré à l'aide d'un moteur de blog statique ba
 La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][/GitHub Action/]], reproductible grâce à l'utilisation du gestionnaire de package [[https://guix.gnu.org/][Guix]].
 
 Les sources sont disponibles sur [[https://github.com/MBunel/mbunel.xyz][ce dépôt GitHub.]]
-
-* Publications
-Voir la [[url_for:pages,slug=publications][liste de mes publications]].

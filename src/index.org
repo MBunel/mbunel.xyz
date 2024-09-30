@@ -8,11 +8,7 @@ Je suis Mattia Bunel, géographe et géomaticien, actuellement ingénieur de rec
 
 Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en cours de mise à jour).
 
-* Actualités :noexport:
-+ [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées,]] 2023, IGN
-
-* Liens utiles
-
+Liens de contact :
 #+Attr_html: :style font-size:small; margin-bottom:2.5em;
 #+Begin_div
 + GitHub : https://github.com/MBunel
@@ -21,14 +17,18 @@ Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en co
 + HAL : https://cv.archives-ouvertes.fr/mattia-bunel
 #+end_div
 
-
 * Projets de recherche en cours :noexport:
 #+Begin_see
 Voir la [[url_for:pages,slug=projets][liste complète]].
 #+end_see
 
+* Actualités
++ 22 novembre 2024, Présentation du chapitre [[https://www.istegroup.com/fr/produit/limperfection-des-donnees-geographiques-2/][/« Prise en compte de l’incertitude dans un processus de localisation de victimes en montagne »/]], à la journée d'étude de l'AD /incertitude/ du GdR Magis.
+
 * Dernières publications
 [cite/n:@Bunel2020;@Bunel2021b]
 #+print_bibliography:
 
+#+Begin_see
 Voir la [[url_for:pages,slug=publications][liste complète]] de mes publications.
+#+end_see

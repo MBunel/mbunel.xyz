@@ -156,4 +156,6 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 |------------+-----------------------+-------------------------------|
 
 * Publications
-Voir la [[url_for:pages,slug=publications][liste complète]].
+#+BEGIN_see
+Voir la [[url_for:pages,slug=publications][liste de mes publications]].
+#+END_see

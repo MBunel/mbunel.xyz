@@ -316,6 +316,13 @@ kbd, code {
     padding: 0.1em 0.2em;
 }
 
+/*  */
+.see {
+    margin-left: 1em;
+    font-size: small;
+    font-style: italic;
+}
+
 /* Source Code */
 .org-src-container {
     padding: 10px;
