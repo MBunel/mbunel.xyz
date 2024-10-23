@@ -1,21 +1,18 @@
 #+TITLE:Bonjour
 #+LANGUAGE:fr
 #+OPTIONS: toc:nil num:nil
-#+cite_export: csl ./meta/chicago-author-date-fr.csl
+#+cite_export: csl meta/chicago-author-date-fr.csl
 #+bibliography: meta/biblio.bib
 
 Je suis Mattia Bunel, géographe et géomaticien, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
 Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en cours de mise à jour).
 
-Liens de contact :
-#+Attr_html: :style font-size:small; margin-bottom:2.5em;
-#+Begin_div
-+ GitHub : https://github.com/MBunel
-+ OCRID : https://orcid.org/0000-0001-7751-3507
-+ Research Gate : https://www.researchgate.net/profile/Mattia-Bunel
-+ HAL : https://cv.archives-ouvertes.fr/mattia-bunel
-#+end_div
+* Contact 
++ *GitHub :* https://github.com/MBunel
++ *OCRID :* https://orcid.org/0000-0001-7751-3507
++ *Research Gate :* https://www.researchgate.net/profile/Mattia-Bunel
++ *HAL :* https://cv.archives-ouvertes.fr/mattia-bunel
 
 * Projets de recherche en cours :noexport:
 #+Begin_see
@@ -23,8 +20,13 @@ Voir la [[url_for:pages,slug=projets][liste complète]].
 #+end_see
 
 * Actualités
-+ 22 novembre 2024, Présentation du chapitre [[https://www.istegroup.com/fr/produit/limperfection-des-donnees-geographiques-2/][/« Prise en compte de l’incertitude dans un processus de localisation de victimes en montagne »/]], à la journée d'étude de l'AD /incertitude/ du GdR Magis.
+#+INCLUDE: "./pages/actualites.org::*À venir" :only-contents t
 
+#+Begin_see
+Voir la [[url_for:pages,slug=actualites][liste complète]] de mes actualités.
+#+end_see
+
+  
 * Dernières publications
 [cite/n:@Bunel2020;@Bunel2021b]
 #+print_bibliography:
