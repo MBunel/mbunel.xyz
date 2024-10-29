@@ -12,8 +12,8 @@
  :theme nil
  :base-url weblorg-default-url 
  :template-vars '(("site_name" . "mbunel.xyz")
-                  ("site_owner" . "owner@mail.com (owner)")
-                  ("site_description" . "owner's personal blog.")))
+                  ("site_owner" . "Mattia Bunel")
+                  ("site_description" . "Mattia Bunel's personal website.")))
 
 ;; Main page
 (weblorg-route
