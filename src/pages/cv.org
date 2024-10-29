@@ -16,7 +16,7 @@ Mots clés :
 - /Naive Geography/
 - Localisation spatiale
 
-** Antérieurs à la thèse
+** Antérieurs à la thèse :noexport:
 
 Mes premières activités de recherche ont pris place au sein de l’ANR
 SoDeMoMed, projet où j’ai effectué un stage en licence 3, et auquel
@@ -25,7 +25,7 @@ et de master 2 (SDS). Durant cette période, mon travail portait sur
 l’analyse diachronique de la distribution de la population, et sur
 l’identification des facteurs climatiques l’ayant influencée. Au cours
 de mon master 1 j’ai abordé cette question en me penchant sur
-l’ensemble du bassin méditerranéen, et j’ai ensuite approfondie en
+l’ensemble du bassin méditerranéen, et j’ai ensuite approfondi en
 master 2, où je n’ai travaillé que sur la France métropolitaine, mais
 à l’échelle communale et sur le temps long (1793-1999). À la suite de
 mon master Carthagéo j’ai effectué un stage au sein de l’ERC
@@ -37,7 +37,7 @@ de recherche. La question que j’ai principalement traitée est celle du
 traitement, de l’analyse et de la représentation des données de flux
 dont nous disposions.
 
-** Travaux de thèse
+** Travaux de thèse :noexport:
 
 Ma thèse de doctorat a été réalisée dans le cadre du projet [[http://choucas.ign.fr/][Choucas]], dont l’objectif est de développer des
 méthodes et des outils permettant aux secouristes des pelotons de
@@ -64,7 +64,7 @@ est représentée sous la forme d’un sous-ensemble flou, ce qui permet
 une meilleure modélisation des transitions entre la zone correspondant
 à l’indice de localisation et celle qui n’y correspond pas.
 
-** Travaux postérieurs à la thèse
+** Travaux postérieurs à la thèse :noexport:
 
 A la suite de ma thèse j’ai travaillé quelques mois en tant que
 post-doctorant au sein de l’ANR CORES 3 . L’objectif premier de ce
@@ -75,7 +75,7 @@ utilisateurs), sur les déplacements piétons en milieu urbain,
 l’hypothèse majeure du projet étant que plus les utilisateurs
 disposent d’une application riche en informations, moins ils ne
 retiennent la structure spatiale de la zone qu’ils parcourent. Pour
-répondre à cette question un ensemble d’expérimentations ont étés
+répondre à cette question un ensemble d’expérimentations ont été
 menées avant mon arrivée. Ces dernières consistaient à demander à des
 volontaires de parcourir librement pendant une heure, une zone
 préalablement délimitée, dans le but d’en dessiner une carte la plus
@@ -91,7 +91,7 @@ de la zone visitée.
 
 Ma récente participation à l’ANR HITI 4 s’inscrit à la suite de ma
 collaboration avec les chercheurs de l’ANR CORES. L’objectif du projet
-HITI est d’analyser les représentation spatiales des zones de pèche
+HITI est d’analyser les représentations spatiales des zones de pêche
 par les pécheurs lagunaires de Moorea (Polynésie française). En effet,
 les représentations cartographiques traditionnelles (cartes zénithales
 délimitant l’espace géographique de manière nette) ne sont pas un
