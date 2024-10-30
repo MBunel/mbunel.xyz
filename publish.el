@@ -1,7 +1,17 @@
+;; Package import
 (package-initialize)
 (require 'weblorg)
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
+
+(defun beautify-html-files (directory)
+  "Iterate over all HTML files in a directory."
+  (let ((html-files (directory-files-recursively directory "\\.html\\'")))
+    (dolist (file html-files)
+      (message "Beautify file: %s" file)
+      (shell-command (concat (string-join '("tidy" "-m" "-i" "-w 120") " ") " " file)))))
+
+;; Website export def
 
 ;; Definie main url
 (if (string= (getenv "WEBLORG_ENV") "prod")
@@ -44,7 +54,7 @@
 ;;  :name "categories"
 ;;  :input-pattern "src/posts/*.org"
 ;;  :input-aggregate #'weblorg-input-aggregate-by-category
- 
+
 ;;  :template "category.html"
 ;;  :output "output/tags/{{ name }}.html"
 ;;  :url "/tags/{{ name }}.html")
@@ -79,8 +89,8 @@
 
 ;; route for static assets that also copies files to output directory
 (weblorg-copy-static
-  :output "output/static/{{ file }}"
-  :url "/static/{{ file }}")
+ :output "output/static/{{ file }}"
+ :url "/static/{{ file }}")
 
 ;; ;; RSS
 ;; (weblorg-route
@@ -88,5 +98,7 @@
 ;;  :url "/feed.xml")
 
 
+;; Run export
 (weblorg-export)
 (copy-directory "./src/static/" "./output/" nil t)
+(beautify-html-files "./output")

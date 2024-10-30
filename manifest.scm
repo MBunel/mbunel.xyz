@@ -8,7 +8,7 @@
 
 (concatenate-manifests
  (list
-  (specifications->manifest '("bash" "make" "pandoc" "emacs-no-x" "emacs-htmlize" "emacs-citeproc-el"))
+  (specifications->manifest '("bash" "make" "pandoc" "tidy" "emacs-no-x" "emacs-htmlize" "emacs-citeproc-el"))
   (packages->manifest
    (list
     (package
