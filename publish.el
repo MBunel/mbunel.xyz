@@ -4,12 +4,18 @@
 (require 'htmlize)
 (setq org-html-htmlize-output-type 'css)
 
+;; Usefull functions definition
+(org-add-link-type "rdf_link"
+		   :export (lambda (link description backend)
+			     (let* ((args (split-string link ",")))
+			       (concat "<span " (string-join args " ") ">" description "</span>"))))
+
 (defun beautify-html-files (directory)
   "Iterate over all HTML files in a directory."
   (let ((html-files (directory-files-recursively directory "\\.html\\'")))
     (dolist (file html-files)
       (message "Beautify file: %s" file)
-      (shell-command (concat (string-join '("tidy" "-m" "-i" "-w 120") " ") " " file)))))
+      (shell-command (concat (string-join '("tidy" "-m" "-i" "-w") " ") " " file)))))
 
 ;; Website export def
 
