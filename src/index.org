@@ -23,8 +23,8 @@ Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en co
 * Contact
 - *GitHub :* @@html:<a about="#gh" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://github.com/MBunel">https://github.com/MBunel</a>@@
 - *OCRID :* @@html:<a about="#ocrid" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://orcid.org/0000-0001-7751-3507">https://orcid.org/0000-0001-7751-3507</a>@@
-- *Research Gate :@@html:<a about="#rg" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://www.researchgate.net/profile/Mattia-Bunel">https://www.researchgate.net/profile/Mattia-Bunel</a>@@
-- *HAL :@@html:<a about="#hal" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://cv.archives-ouvertes.fr/mattia-bunel">https://cv.archives-ouvertes.fr/mattia-bunel</a>@@
+- *Research Gate* :@@html:<a about="#rg" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://www.researchgate.net/profile/Mattia-Bunel">https://www.researchgate.net/profile/Mattia-Bunel</a>@@
+- *HAL* :@@html:<a about="#hal" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://cv.archives-ouvertes.fr/mattia-bunel">https://cv.archives-ouvertes.fr/mattia-bunel</a>@@
 
 * Projets de recherche en cours :noexport:
 #+Begin_see
