@@ -67,7 +67,7 @@
     </main>
     {% block footer %}
     <footer>
-      <p>Fabriqué à coups de <kbd>M-x</kbd> le {{ now() | strftime("%d %b %Y") }}.</p>
+      <p>Fabriqué à coup de <kbd>M-x</kbd> le {{ now() | strftime("%d %b %Y") }}.</p>
       <p><a href="{{ url_for("pages", slug="a-propos") }}">Mattia Bunel,</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>, 2024.</p>
     </footer>
     {% endblock %}
