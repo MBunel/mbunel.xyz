@@ -1,9 +1,7 @@
-<!doctype html>
+<!doctype html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html
-  xmlns="http://www.w3.org/1999/xhtml"
-  lang="fr-fr"
-  xml:lang="fr-fr"
-  prefix="foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org#">
+  lang="{{ site_lang | default("en") }}"
+  {% if site_html_prefix is defined %}prefix="{{ site_html_prefix }}"{% endif %}>
   <head>
     {% block head %}
     <meta charset="utf-8">

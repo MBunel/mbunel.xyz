@@ -27,9 +27,11 @@
 (weblorg-site
  :theme nil
  :base-url weblorg-default-url 
- :template-vars '(("site_name" . "mbunel.xyz")
+ :template-vars '(("site_lang" . "fr-fr")
+		  ("site_name" . "mbunel.xyz")
                   ("site_owner" . "Mattia Bunel")
-                  ("site_description" . "Mattia Bunel's personal website.")))
+                  ("site_description" . "Mattia Bunel's personal website.")
+		  ("site_html_prefix" . "foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org#")))
 
 ;; Main page
 (weblorg-route
