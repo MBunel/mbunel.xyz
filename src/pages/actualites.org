@@ -5,10 +5,12 @@
 
 * À venir
 
-+ 19 novembre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1er cycle, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
-+ 22 novembre 2024, Présentation du chapitre [[https://www.istegroup.com/fr/produit/limperfection-des-donnees-geographiques-2/][/« Prise en compte de l’incertitude dans un processus de localisation de victimes en montagne »/]], à la journée d'étude de l'AD /incertitude/ du GdR Magis.
-+ 16 décembre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1er cycle, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
-
+- 19 novembre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- 22 novembre 2024, Présentation du chapitre [[https://www.istegroup.com/fr/produit/limperfection-des-donnees-geographiques-2/][/« Prise en compte de l’incertitude dans un processus de localisation de victimes en montagne »/]], à la journée d'étude de l'AD /incertitude/ du GdR Magis.
+- 16 décembre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
+- 19 décembre 2024, Présentation sur WikiData & SPARQL au 4^e atelier-garage MATE-SHS. 
+  
+  
 * Passées
-+ 22 octobre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1er cycle, première séance : /Introduction aux SIG/.
++ 22 octobre 2024, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle, première séance : /Introduction aux SIG/.
   
