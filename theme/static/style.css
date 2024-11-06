@@ -337,6 +337,18 @@ kbd, code {
     font-weight:bold;
 }
 
+.org-operator {
+    color: var(--sky);
+}
+
+.org-function-name {
+    font-weight:bold;
+    color: var(--sky);}
+
+.org-constant, .org-variable-name {
+    color: var(--teal);
+} 
+
 .org-comment, .org-comment-delimiter {
     color: var(--subtext0);
     font-style: italic;
@@ -349,6 +361,21 @@ kbd, code {
 .org-string {
     color: var(--flamingo);
 }
+
+
+.org-diff-header, .org-diff-file-header, .org-diff-hunk-header {
+    color: var(--subtext0);
+}
+
+.org-diff-indicator-removed, .org-diff-removed {
+    color: var(--red);
+}
+
+.org-diff-indicator-added, .org-diff-added {
+    color: var(--blue);
+}
+
+
 
 /* Listes */
 ul {
