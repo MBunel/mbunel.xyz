@@ -311,6 +311,7 @@ pre, kbd, code {
     font-family: "Space Mono", "DejaVu Sans Mono", monospace;
     font-weight: 400;
     font-style: normal;
+    text-wrap: auto;
 }
 
 kbd, code {
