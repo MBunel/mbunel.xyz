@@ -8,7 +8,8 @@
 
 (concatenate-manifests
  (list
-  (specifications->manifest '("bash" "make" "pandoc" "tidy" "emacs-no-x" "emacs-htmlize" "emacs-citeproc-el"))
+  (specifications->manifest
+   '("bash" "make" "pandoc" "tidy" "emacs-no-x" "emacs-htmlize" "emacs-citeproc-el" "pdf2svg" "texlive-base" "texlive-standalone" "texlive-pgf"))
   (packages->manifest
    (list
     (package
