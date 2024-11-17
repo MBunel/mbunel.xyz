@@ -2,14 +2,20 @@
 #+SLUG:a-propos
 #+OPTIONS: num:nil toc:nil
 
+* Licence
 
-Ce site est un site statique généré à l'aide d'un moteur de blog
-statique basé sur emacs, [[https://emacs.love/weblorg/][/weblorg/]]. J'utilise un [[https://github.com/MBunel/mbunel.xyz/tree/main/theme][template personalisé]],
+Sauf mention contraire, les contenus publiés sur ce site sont réutilisables suivant les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][Creative Commons BY-SA 4.0]].
+
+* Technique
+Ce site est généré à l'aide d'un moteur de blog
+statique basé sur Emacs, [[https://emacs.love/weblorg/][/weblorg/]]. J'utilise un [[https://github.com/MBunel/mbunel.xyz/tree/main/theme][template personalisé]],
 basé sur les polices [[https://github.com/impallari/Libre-Baskerville][Libre Baskerville]], [[https://github.com/impallari/Libre-Franklin][Libre Franklin]], [[https://github.com/googlefonts/spacemono][Space Mono]] et
-la palette [[https://catppuccin.com/][Catppuccin]].
+la palette de couleurs [[https://catppuccin.com/][Catppuccin]].
 
-La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][action GitHub]], reproductible grâce à l'utilisation du gestionnaire de package [[https://guix.gnu.org/][Guix]].
+La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][action GitHub]] reproductible, grâce à l'utilisation du gestionnaire de package [[https://guix.gnu.org/][Guix]].
 
-Ce site n'utilise aucun cookie et n'exécute pas de JavaScript.
+Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
 
-Les sources sont disponibles sur [[https://github.com/MBunel/mbunel.xyz][ce dépôt GitHub.]]
+* Vie Privée
+
+Ce site est hébergé par GitHub (Microsoft). Aucun cookie, ni JavaScript n'est utilisé.
