@@ -1,14 +1,16 @@
 {% extends "base.html" %}
 {% block main %}
-  <h1 class="tag">#{{ category.name }}</h1>
-  <div class="content">
-    <ul>
-      {% for post in category.posts %}
-        <li>
-          <span class="pubdate">{{ post.date |strftime("%d %b %Y") }}</span>
-          <a href="{{ url_for("posts", slug=post.slug) }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
+<h1 class="tag">#{{ category.name }}</h1>
+<div class="content">
+  <ul>
+    {% for post in category.posts %}
+    <li>
+      {% if post.date is defined %}
+      <span class="pubdate">{{ post.date | strftime("%d %b %Y") }}</span>
+      {% endif %}
+      <a href="{{ url_for("posts", slug=post.slug) }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock %}
