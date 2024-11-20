@@ -17,6 +17,20 @@
       (message "Beautify file: %s" file)
       (shell-command (concat (string-join '("tidy" "-m" "-i" "-w") " ") " " file)))))
 
+
+;; Org babel execution
+(setq org-confirm-babel-evaluate nil) ; Do no ask before running
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((shell . t)
+   (dot . t)
+   (latex . t)
+   (emacs-lisp . t)))
+
+; For export tizk pdf in svg
+(setq org-babel-latex-pdf-svg-process "pdf2svg %F %O")
+
 ;; Website export def
 
 ;; Definie main url
@@ -107,6 +121,10 @@
 
 
 ;; Run export
+(make-directory "./_temp/static/images" t)
 (weblorg-export)
 (copy-directory "./src/static/" "./output/" nil t)
+(copy-directory "./_temp/" "./output/" nil t t)
 (beautify-html-files "./output")
+(delete-directory "./_temp" t)
+ 

@@ -1,0 +1,14 @@
+#+TITLE: Dep graph
+#+OPTIONS: num:nil toc:nil
+
+
+#+LABEL: dep_graph
+#+BEGIN_SRC shell :exports results :results raw :wrap src dot
+guix graph -t references $(readlink -f $GUIX_ENVIRONMENT/) 
+#+END_SRC
+
+#+HEADER: :file ../../_temp/static/images/dep_graph.svg :results none
+#+RESULTS: dep_graph
+
+#+ATTR_HTML: :class svgfig dayonly
+[[url_for_img:static,file=images/dep_graph.svg]]

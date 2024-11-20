@@ -103,6 +103,21 @@
     src: url("./LibreBaskerville-Italic.ttf") format('truetype');
 }
 
+/* Color */
+@media (prefers-color-scheme: dark) {
+    .dayonly {
+	display: none;
+    }
+
+}
+@media (prefers-color-scheme: light) {
+    .darkonly {
+	display: none;
+    }
+}
+
+
+
 /* Layout */
 ::selection {
     background: var(--selection);
@@ -440,5 +455,10 @@ td,th {
 
 /* Images */
 img {
+    display: block
     max-width: 100%;
+}
+
+.svgfig > img {
+    width: 80%;
 }
