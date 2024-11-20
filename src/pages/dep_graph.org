@@ -1,5 +1,7 @@
-#+TITLE: Dep graph
+#+TITLE: Graphe des dépendances
 #+OPTIONS: num:nil toc:nil
+
+Le contenu de cette page est généré automatiquement
 
 
 #+LABEL: dep_graph
