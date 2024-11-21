@@ -1,17 +1,23 @@
 #+TITLE: Graphe des dépendances
-#+SLUG:graph-dependances
+#+SLUG: graphe-dependances
 #+OPTIONS: num:nil toc:nil
 
 Le contenu de cette page est généré automatiquement
 
+Manifeste utilisé :
+
+#+INCLUDE: "../../manifest.scm" src scheme :eval no
+
+Channels utilisé pour la génération :
+
+#+INCLUDE: "../../channels.scm" src scheme :eval no
+
+Ce (gros) [[url_for:static,file=images/dep_graph.svg][fichier svg]] présente le graphe complet des dépendances de ce site. Il est généré avec la commande  suivante :
 
 #+LABEL: dep_graph
-#+BEGIN_SRC shell :exports results :results raw :wrap src dot
+#+BEGIN_SRC shell :exports both :results raw :wrap src dot
 guix graph -t references $(readlink -f $GUIX_ENVIRONMENT/)
 #+END_SRC
 
 #+HEADER: :file ../../_temp/static/images/dep_graph.svg :results none
 #+RESULTS: dep_graph
-
-#+ATTR_HTML: :class svgfig dayonly
-[[url_for_img:static,file=images/dep_graph.svg]]

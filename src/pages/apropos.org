@@ -16,6 +16,8 @@ La publication de ce site est automatisée par une [[https://github.com/MBunel/m
 
 Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
 
+Une description détaillée des paquets utilisés pour la génération de ce site est disponible sur la page [[url_for:pages,slug=graphe-dependances][graphe des dépendances.]]
+
 * Vie Privée
 
 Ce site est hébergé par GitHub (Microsoft). Aucun cookie, ni JavaScript n'est utilisé.
