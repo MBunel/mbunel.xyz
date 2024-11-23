@@ -2,13 +2,12 @@
 #+SLUG: graphe-dependances
 #+OPTIONS: num:nil toc:nil
 
-Le contenu de cette page est généré automatiquement
 
-Manifeste utilisé :
+Manifeste:
 
 #+INCLUDE: "../../manifest.scm" src scheme :eval no
 
-Channels utilisé pour la génération :
+Channel :
 
 #+INCLUDE: "../../channels.scm" src scheme :eval no
 
