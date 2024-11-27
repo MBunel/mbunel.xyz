@@ -8,11 +8,11 @@ Sauf mention contraire, les contenus publiés sur ce site sont réutilisables su
 
 * Technique
 Ce site est généré à l'aide d'un moteur de blog
-statique basé sur Emacs, [[https://emacs.love/weblorg/][/weblorg/]]. J'utilise un [[https://github.com/MBunel/mbunel.xyz/tree/main/theme][template personalisé]],
+statique basé sur Emacs, [[https://emacs.love/weblorg/][/weblorg/]]. J'utilise un [[https://github.com/MBunel/mbunel.xyz/tree/main/theme][template personnalisé]],
 basé sur les polices [[https://github.com/impallari/Libre-Baskerville][Libre Baskerville]], [[https://github.com/impallari/Libre-Franklin][Libre Franklin]], [[https://github.com/googlefonts/spacemono][Space Mono]] et
 la palette de couleurs [[https://catppuccin.com/][Catppuccin]].
 
-La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][action GitHub]] reproductible, grâce à l'utilisation du gestionnaire de package [[https://guix.gnu.org/][Guix]].
+La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][action GitHub]] reproductible, grâce à l'utilisation du gestionnaire de paquets [[https://guix.gnu.org/][Guix]].
 
 Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
 

@@ -3,14 +3,6 @@
 #+OPTIONS: num:nil toc:nil
 
 
-Manifeste:
-
-#+INCLUDE: "../../manifest.scm" src scheme :eval no
-
-Channel :
-
-#+INCLUDE: "../../channels.scm" src scheme :eval no
-
 Ce (gros) [[url_for:static,file=images/dep_graph.svg][fichier svg]] présente le graphe complet des dépendances de ce site. Il est généré avec la commande  suivante :
 
 #+LABEL: dep_graph
@@ -20,3 +12,17 @@ guix graph -t references $(readlink -f $GUIX_ENVIRONMENT/)
 
 #+HEADER: :file ../../_temp/static/images/dep_graph.svg :results none
 #+RESULTS: dep_graph
+
+Le gestionnaire de paquets [[https://guix.gnu.org/][Guix]] permet de reproduire cet état du système sur différentes machines, garantissant la reproductibilté de ce site. On peut retourner à cet état du système en utilisant la commande suivante :
+
+#+BEGIN_SRC shell :eval no
+guix time-machine -m manifest.scm -c channels.scm -- shell
+#+END_SRC
+
+Avec ~manifest.scm~ le fichier suivant:
+
+#+INCLUDE: "../../manifest.scm" src scheme :eval no
+
+et ~channels.scm~ le fichier suivant :
+
+#+INCLUDE: "../../channels.scm" src scheme :eval no

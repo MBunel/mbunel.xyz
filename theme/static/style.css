@@ -285,23 +285,8 @@ hgroup > p {
 .org-src-container, blockquote {
     box-shadow: 10px 10px 0 -5px var(--attention-1);
     background: var(--mantle);
-    /* border: 1px solid var(--attention-1); */
-
-}
-
-blockquote {
-    margin-bottom: 10px;
-}
-
-
-blockquote, .org-src-container {
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-
+    padding: 0.5em 1em;
+    margin: 1em 2em 2em;
 }
 
 .csl-bib-body {
@@ -349,6 +334,26 @@ kbd, code {
 
 /* Source Code */
 .org-src-container {
+    position: relative;
+}
+
+.org-src-container > pre::before {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: .5em;
+    color: var(--attention-1);
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.org-src-container > pre.src-scheme::before {
+  content: "Scheme";
+}
+
+.org-src-container > pre.src-shell::before {
+  content: "Shell";
 }
 
 .org-keyword {
@@ -394,6 +399,7 @@ kbd, code {
     color: var(--blue);
 }
 
+/* .org-sh-quoted-exec {} */
 
 
 /* Listes */
