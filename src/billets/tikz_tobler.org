@@ -1,0 +1,109 @@
+#+TITLE:Le modèle de marche de Tobler
+#+FILETAGS: :tikz:
+
+Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur des données empirique de Imhof.
+
+#+ATTR_HTML: :class svgfig dayonly
+[[url_for_img:static,file=images/hiking_tobler_day.svg]]
+
+#+ATTR_HTML: :class svgfig darkonly
+[[url_for_img:static,file=images/hiking_tobler_night.svg]]
+
+
+#+HEADER: :headers '("\\usepackage{pgfplots}")
+#+HEADER: :imagemagick yes
+#+HEADER: :results none
+#+header: :file ../../_temp/static/images/hiking_tobler_day.svg
+#+BEGIN_SRC latex
+\pgfmathdeclarefunction{tobler}{1}{%
+  \pgfmathparse{#1 * 6 * exp(-3.5 * abs(tan(x) + 0.05))}%
+}
+
+\begin{tikzpicture}
+  \begin{axis}[
+    semithick,
+    tick style={major tick length=4pt, semithick, black},
+    separate axis lines,
+    axis x line*=bottom,
+    axis x line shift=10pt,
+    xlabel shift=-10pt,
+    axis y line*=left,
+    axis y line shift=10pt,
+    ylabel shift=10pt,
+    enlarge x limits=false,
+    enlarge y limits=false,
+    width=12cm, height=7cm,
+    xlabel=Pente (degrés),
+    ylabel=Vitesse de marche (\si{\kilo\meter\per\hour}),
+    ymin=0, ymax=8,
+    every axis x label/.style={at={(ticklabel* cs:0.5)}, anchor=north},
+    every axis plot post/.append style={mark=none, domain=-70:70, samples=500, smooth}]
+
+    % Tobler
+    \addplot[ultra thick] {tobler(1)}; % Normal
+    \addplot[dashed, ultra thick] {tobler(0.6)}; % Sur sentier
+    \addplot[dashed, ultra thick] {tobler(1.2)}; % À cheval
+  \end{axis}
+  %
+  \node[text width=8cm, align=justify, draw, anchor=north west] at (11,5){%
+  For walking on footpaths in hilly terrain:
+  
+  \[
+  W = 6 \exp^{-3.5 * \| S + 0,05 \|} 
+  \]
+  
+  where $W$ is the walking velocity, $S$ is  $dh/dx$ = slope = $\tan(\theta)$ ; $dh$ et $dx$ must be mesurated in the same units. 
+  The velocity is given in \si{\kilo\meter\per\hour}. On flat terrain this work out to 5 \si{\kilo\meter\per\hour}. For off-path trarvel multiply by $3/5$ (= 0,5). For horseback, multiply by $3/5$  (= 1,25). The travel time is computed as distance / velocity.
+  };
+\end{tikzpicture}
+#+END_SRC
+
+#+HEADER: :headers '("\\usepackage{pgfplots}" "\\usepackage{xcolor}")
+#+HEADER: :imagemagick yes
+#+HEADER: :results none
+#+header: :file ../../_temp/static/images/hiking_tobler_night.svg
+#+BEGIN_SRC latex
+\color{white}
+
+\pgfmathdeclarefunction{tobler}{1}{%
+  \pgfmathparse{#1 * 6 * exp(-3.5 * abs(tan(x) + 0.05))}%
+}
+
+\begin{tikzpicture}
+  \begin{axis}[
+    semithick,
+    tick style={major tick length=4pt, semithick, white},
+    separate axis lines,
+    axis x line*=bottom,
+    axis x line shift=10pt,
+    xlabel shift=-10pt,
+    axis y line*=left,
+    axis y line shift=10pt,
+    ylabel shift=10pt,
+    enlarge x limits=false,
+    enlarge y limits=false,
+    width=12cm, height=7cm,
+    xlabel=Pente (degrés),
+    ylabel=Vitesse de marche (\si{\kilo\meter\per\hour}),
+    ymin=0, ymax=8,
+    every axis x label/.style={at={(ticklabel* cs:0.5)}, anchor=north},
+    every axis plot post/.append style={mark=none, domain=-70:70, samples=500, smooth}]
+
+    % Tobler
+    \addplot[white, ultra thick] {tobler(1)}; % Normal
+    \addplot[white, dashed, ultra thick] {tobler(0.6)}; % Sur sentier
+    \addplot[white, dashed, ultra thick] {tobler(1.2)}; % À cheval
+  \end{axis}
+  %
+  \node[text width=8cm, align=justify, draw, anchor=north west] at (11,5){%
+  For walking on footpaths in hilly terrain:
+  
+  \[
+  W = 6 \exp^{-3.5 * \| S + 0,05 \|} 
+  \]
+  
+  where $W$ is the walking velocity, $S$ is  $dh/dx$ = slope = $\tan(\theta)$ ; $dh$ et $dx$ must be mesurated in the same units. 
+  The velocity is given in \si{\kilo\meter\per\hour}. On flat terrain this work out to 5 \si{\kilo\meter\per\hour}. For off-path trarvel multiply by $3/5$ (= 0,5). For horseback, multiply by $3/5$  (= 1,25). The travel time is computed as distance / velocity.
+  };
+\end{tikzpicture}
+#+END_SRC

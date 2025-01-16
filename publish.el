@@ -28,6 +28,13 @@
    (latex . t)
    (emacs-lisp . t)))
 
+(setq org-babel-latex-preamble
+  (lambda (_)
+    "\\documentclass[tikz]{standalone}
+"))
+
+(setq org-latex-compiler "lualatex")
+
 ; For export tizk pdf in svg
 (setq org-babel-latex-pdf-svg-process "pdf2svg %F %O")
 
@@ -63,30 +70,31 @@
  :output "output/{{ slug }}.html"
  :url "/{{ slug }}.html")
 
-;; ;; List of blog posts
-;; (weblorg-route
-;;  :name "blog"
-;;  :input-pattern "src/posts/*.org"
-;;  :input-aggregate #'weblorg-input-aggregate-all-desc
-;;  :template "blog.html"
-;;  :output "output/billets.html"
-;;  :url "/billets.html")
 
-;; (weblorg-route
-;;  :name "categories"
-;;  :input-pattern "src/posts/*.org"
-;;  :input-aggregate #'weblorg-input-aggregate-by-category
+(weblorg-route
+ :name "posts"
+ :input-pattern "src/billets/*.org"
+ :template "post.html"
+ :output "output/billets/{{ slug }}.html"
+ :url "/billets/{{ slug }}.html")
 
-;;  :template "category.html"
-;;  :output "output/tags/{{ name }}.html"
-;;  :url "/tags/{{ name }}.html")
+(weblorg-route
+ :name "categories"
+ :input-pattern "src/billets/*.org"
+ :input-aggregate #'weblorg-input-aggregate-by-category
+ :template "category.html"
+ :output "output/categories/{{ name }}.html"
+ :url "/categories/{{ name }}.html")
 
-;; (weblorg-route
-;;  :name "posts"
-;;  :input-pattern "src/posts/*.org"
-;;  :template "post.html"
-;;  :output "output/posts/{{ slug }}.html"
-;;  :url "/posts/{{ slug }}.html")
+;; List of blog posts
+(weblorg-route
+ :name "blog"
+ :input-pattern "src/billets/*.org"
+ :input-aggregate #'weblorg-input-aggregate-all-desc
+ :template "blog.html"
+ :output "output/billets/index.html"
+ :url "/billets/index.html")
+
 
 ;; ;; Cours
 ;; (weblorg-route
