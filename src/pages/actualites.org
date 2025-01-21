@@ -5,13 +5,14 @@
 
 * À venir
 
-- 20 janvier 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 - 12 février 2025, Formation à l'utilisation d'une API web (me contacter directement pour s'inscrire).
 - 17 février 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
 - 17 mars 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
   
 * Archives
+** 2025
 
+- 20 janvier 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 ** 2024
 
 - 19 décembre 2024, Présentation sur WikiData & SPARQL au 4^e atelier-garage MATE-SHS. 
