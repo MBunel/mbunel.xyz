@@ -1,0 +1,13 @@
+#+TITLE: Introduction à l'utilisation d'API Web
+#+SLUG:introduction-api
+#+OPTIONS: num:nil toc:nil
+
+** Support de formation
+
+https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads
+
+** TP
+
+https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb
+
+Les sources sont disponibles sur gitlab: https://gitlab.huma-num.fr/mbunel/formation-apis

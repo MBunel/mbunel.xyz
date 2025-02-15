@@ -116,8 +116,6 @@
     }
 }
 
-
-
 /* Layout */
 ::selection {
     background: var(--selection);
@@ -143,7 +141,6 @@
     }
 }
 
-
 body {
     /* Layout */
     min-height: 100vh;
@@ -167,7 +164,7 @@ body {
 header, footer {
     font-family: "Libre Franklin", sans;
     /* Border and shadow*/
-    box-shadow: 10px 10px 0 -5px var(--sapphire);
+    box-shadow: 15px 15px 0 -5px var(--sapphire);
     background: var(--mantle);
     /* border: 1px solid var(--sapphire); */
 }
@@ -251,7 +248,7 @@ main {
     flex-basis: auto;
     margin-left:auto;
     margin-right:auto;
-    max-width:70rem;
+    width:90%;
 }
 
 h1, h2, h3 {
@@ -385,7 +382,6 @@ kbd, code {
 .org-string {
     color: var(--flamingo);
 }
-
 
 .org-diff-header, .org-diff-file-header, .org-diff-hunk-header {
     color: var(--subtext0);

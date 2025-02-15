@@ -95,22 +95,21 @@
  :output "output/billets/index.html"
  :url "/billets/index.html")
 
+;; Cours
+(weblorg-route
+ :name "cours"
+ :input-pattern "src/cours/*.org"
+ :template "page.html"
+ :output "output/cours/{{ slug }}.html"
+ :url "/cours/{{ slug }}.html")
 
-;; ;; Cours
-;; (weblorg-route
-;;  :name "cours"
-;;  :input-pattern "src/cours/*.org"
-;;  :template "page.html"
-;;  :output "output/cours/{{ slug }}.html"
-;;  :url "/cours/{{ slug }}.html")
-
-;; (weblorg-route
-;;  :name "pages_cours"
-;;  :input-pattern "src/cours/*.org"
-;;  :input-aggregate #'weblorg-input-aggregate-all-desc
-;;  :template "cours.html"
-;;  :output "output/cours/cours.html"
-;;  :url "/cours/index.html")
+(weblorg-route
+ :name "pages_cours"
+ :input-pattern "src/cours/*.org"
+ :input-aggregate #'weblorg-input-aggregate-all-desc
+ :template "cours.html"
+ :output "output/cours/index.html"
+ :url "/cours/index.html")
 
 ;; Static
 (weblorg-route
