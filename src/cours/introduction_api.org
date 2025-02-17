@@ -2,12 +2,25 @@
 #+SLUG:introduction-api
 #+OPTIONS: num:nil toc:nil
 
-** Support de formation
 
-https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads
+Plan :
+1. Introduction
+2. Définir le problème
+3. Un tour du web
+4. API Web
+5. Formats de sérialisation
+6. Protocoles
+7. Les différentes architectures
+8. La boîte à outils
+9. Quelques problèmes courants
+10. Et si je veux construire mon API ?
+11. Un peu de pratique
 
-** TP
 
-https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb
+- [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][Accèder]] au support de formation
 
-Les sources sont disponibles sur gitlab: https://gitlab.huma-num.fr/mbunel/formation-apis
+- [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][Accèder]] au TP
+
+- On pourra intéragir avec le TP en [[https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb][utilisant binder]] (quand ça marche). 
+
+Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][support de formation]], le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][/notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
