@@ -1,5 +1,6 @@
 #+TITLE: Introduction à l'utilisation d'API Web
 #+SLUG:introduction-api
+#+DATE:2025-02-12
 #+OPTIONS: num:nil toc:nil
 
 

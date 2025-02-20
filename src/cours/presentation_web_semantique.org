@@ -1,5 +1,6 @@
 #+TITLE: Wikidata et le Web sémantique
 #+SLUG:presentation-web-semantique
+#+DATE:2024-12-19
 #+OPTIONS: num:nil toc:nil
 
 [[https://gitlab.huma-num.fr/mbunel/presentation-web-semantique/-/raw/main/diapo.pdf?ref_type=heads&inline=false][Support]] pour une présentation des technologies du web sémantique. Initialement dispensée le 19 décembre 2024, lors d'un atelier-garage MATE-SHS.
