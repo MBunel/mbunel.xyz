@@ -1,0 +1,7 @@
+#+TITLE: Wikidata et le Web sémantique
+#+SLUG:presentation-web-semantique
+#+OPTIONS: num:nil toc:nil
+
+[[https://gitlab.huma-num.fr/mbunel/presentation-web-semantique/-/raw/main/diapo.pdf?ref_type=heads&inline=false][Support]] pour une présentation des technologies du web sémantique. Initialement dispensée le 19 décembre 2024, lors d'un atelier-garage MATE-SHS.
+
+Le [[https://gitlab.huma-num.fr/mbunel/presentation-web-semantique/-/blob/main/diapo.pdf?ref_type=heads][support de formation]] et les [[https://gitlab.huma-num.fr/mbunel/presentation-web-semantique][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
