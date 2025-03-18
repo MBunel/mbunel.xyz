@@ -22,6 +22,6 @@ Plan :
 
 - [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][Accèder]] au TP
 
-- On pourra intéragir avec le TP en [[https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb][utilisant binder]] (quand ça marche). 
+- On pourra intéragir avec le TP en [[https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb][utilisant binder]] (quand ça marche) ou [[https://datalab.sspcloud.fr/launcher/ide/jupyter-python?name=jupyter-python&version=2.2.2&s3=region-ec97c721&init.personalInit=%C2%ABhttps%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F-%2Fraw%2Fmain%2FTP%2Fopen-notebook.sh%3Fref_type%3Dheads%C2%BB&autoLaunch=true][l'instance onyxia]] de l'INSEE (nécessite un compte). 
 
 Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][support de formation]], le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][/notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
