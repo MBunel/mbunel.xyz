@@ -1,0 +1,9 @@
+#+TITLE: Slashes
+#+SLUG:slashes
+#+OPTIONS: num:nil toc:nil
+
+Liste des pages [[https://slashpages.net/][slashes]] présentes sur ce site. 
+
+- À propos : [[url_for:pages,slug=about][~/about~]]
+- Détails techniques : [[url_for:pages,slug=colophon][~/colophon~]]
+- Liste des modifications : [[url_for:pages,slug=log][~/log~]]

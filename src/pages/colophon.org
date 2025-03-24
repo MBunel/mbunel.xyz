@@ -1,12 +1,7 @@
-#+TITLE: À propos
-#+SLUG:a-propos
+#+TITLE: Colophon
+#+SLUG:colophon
 #+OPTIONS: num:nil toc:nil
 
-* Licence
-
-Sauf mention contraire, les contenus publiés sur ce site sont réutilisables suivant les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][Creative Commons BY-SA 4.0]].
-
-* Technique
 Ce site est généré à l'aide d'un moteur de blog
 statique basé sur Emacs, [[https://emacs.love/weblorg/][/weblorg/]]. J'utilise un [[https://github.com/MBunel/mbunel.xyz/tree/main/theme][template personnalisé]],
 basé sur les polices [[https://github.com/impallari/Libre-Baskerville][Libre Baskerville]], [[https://github.com/impallari/Libre-Franklin][Libre Franklin]], [[https://github.com/googlefonts/spacemono][Space Mono]] et
@@ -18,6 +13,4 @@ Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/m
 
 Une description détaillée des paquets utilisés pour la génération de ce site est disponible sur la page [[url_for:pages,slug=graphe-dependances][graphe des dépendances.]]
 
-* Vie Privée
-
-Ce site est hébergé par GitHub (Microsoft). Aucun cookie, ni JavaScript n'est utilisé.
+Les diverses modifications effectuées sont listées dans le [[url_for:pages,slug=log][log]].

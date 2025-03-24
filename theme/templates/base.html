@@ -54,7 +54,7 @@
       </div>
       <nav>
         <ul>
-          <li><a href="{{ url_for("pages", slug="a-propos") }}">À propos</a></li>
+          <li><a href="{{ url_for("pages", slug="about") }}">À propos</a></li>
 	  <li><a href="{{ url_for("pages", slug="publications") }}">Publications</a></li>
 	  <!--li><a href="{{ url_for("pages", slug="cv") }}">CV</a></li-->
 	  <!--li><a href="{{ url_for("pages", slug="billets") }}">Billets</a></li-->
@@ -68,7 +68,7 @@
     {% block footer %}
     <footer>
       <p>Fabriqué à coup de <kbd>M-x</kbd> le {{ now() | strftime("%e %b %Y") }}.</p>
-      <p><a href="{{ url_for("pages", slug="a-propos") }}">Mattia Bunel,</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>, 2024-{{ now() | strftime("%Y") }}.</p>
+      <p><a href="{{ url_for("pages", slug="about") }}">Mattia Bunel,</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>, 2024-{{ now() | strftime("%Y") }}.</p>
     </footer>
     {% endblock %}
   </body>

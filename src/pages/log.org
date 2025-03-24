@@ -1,0 +1,16 @@
+#+TITLE: log
+#+SLUG:log
+#+OPTIONS: num:nil toc:nil
+
+* 2024
+
+- 17 mai : Mise en ligne
+
+* 2025
+
+- 18 mars : Ajout d'un lien onyxia pour le cours [[url_for:cours,slug=introduction-api][Introduction à l'utilisation d'une API web]].
+- 24 mars :
+  * Ajout de la page [[url_for:pages,slug=log][~/log~]].
+  * Ajout de la page [[url_for:pages,slug=colophon][~/colophon~]].
+  * La page ~/apropos~ est renommée en [[url_for:pages,slug=about][~/about~]].
+  * Ajout de la page  [[url_for:pages,slug=slashes][~/slashes~]].

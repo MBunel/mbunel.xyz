@@ -1,0 +1,13 @@
+#+TITLE: À propos
+#+SLUG:about
+#+OPTIONS: num:nil toc:nil
+
+* Licence
+
+Sauf mention contraire, les contenus publiés sur ce site sont réutilisables suivant les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][Creative Commons BY-SA 4.0]].
+
+Les informations techniques sont détaillées dans la page [[url_for:pages,slug=colophon][~/colophon~]].
+
+* Vie Privée
+
+Ce site est hébergé par GitHub (Microsoft). Aucun cookie, ni JavaScript n'est utilisé.

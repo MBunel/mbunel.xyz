@@ -17,7 +17,6 @@
       (message "Beautify file: %s" file)
       (shell-command (concat (string-join '("tidy" "-m" "-i" "-w") " ") " " file)))))
 
-
 ;; Org babel execution
 (setq org-confirm-babel-evaluate nil) ; Do no ask before running
 
@@ -69,7 +68,6 @@
  :template "page.html"
  :output "output/{{ slug }}.html"
  :url "/{{ slug }}.html")
-
 
 (weblorg-route
  :name "posts"
@@ -125,7 +123,6 @@
 ;; (weblorg-route
 ;;  :name "feed" :output "output/feed.xml"
 ;;  :url "/feed.xml")
-
 
 ;; Run export
 (make-directory "./_temp/static/images" t)

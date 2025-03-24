@@ -18,7 +18,6 @@
 
 Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géograpie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
-Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en cours de mise à jour).
 
 * Contact
 - *Mail :* prénom (point) nom (@) ehess (point) fr
@@ -28,9 +27,9 @@ Pour plus de détails voir [[url_for:pages,slug=cv][mon /cv/ détaillé]] (en co
 - *HAL :* @@html:<a about="#hal" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://cv.archives-ouvertes.fr/mattia-bunel">https://cv.archives-ouvertes.fr/mattia-bunel</a>@@
 - *Mastodon :* @@html:<a href="https://framapiaf.org/@mattiabunel" rel="me">@mattiabunel@framapiaf.org</a>@@
   
-* Projets de recherche en cours :noexport:
+* Projets de recherche en cours
 #+Begin_see
-Voir la [[url_for:pages,slug=projets][liste complète]].
+Voir la [[url_for:pages,slug=projects][liste complète]].
 #+end_see
 
 * Actualités
@@ -40,7 +39,7 @@ Voir la [[url_for:pages,slug=projets][liste complète]].
 Voir la [[url_for:pages,slug=actualites][liste complète]] de mes actualités.
 #+end_see
 
-* Dernières publications
+* Publications choisies
 [cite/n:@Bunel2020;@Bunel2021b]
 #+print_bibliography:
 
