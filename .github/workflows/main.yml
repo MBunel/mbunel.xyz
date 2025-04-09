@@ -33,7 +33,7 @@ jobs:
             guix-cache-
       # Cannot use a cache for /gnu/store, since restore fails
       - name: Install GNU Guix
-        uses: PromyLOPh/guix-install-action@v1.5
+        uses: PromyLOPh/guix-install-action@v1.6
         with:
           pullAfterInstall: false
       - name: Check out repository code
