@@ -6,6 +6,7 @@
 * À venir
 
 - 5 mai 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- 23 mai, 2025, présentation du travail de stage de Gaspard Dévolvé : « /Détection de changements bi-dates 3D: Une approche opérationnelle exploitant des données lidar aéroportées »,/ à SAGEO ([[https://sageo2025.sciencesconf.org/resource/page/id/20][lien du programme]]).
 - 2 juin 2025, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
   
 * Archives

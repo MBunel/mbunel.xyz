@@ -27,7 +27,7 @@ Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Ma
 - *HAL :* @@html:<a about="#hal" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://cv.archives-ouvertes.fr/mattia-bunel">https://cv.archives-ouvertes.fr/mattia-bunel</a>@@
 - *Mastodon :* @@html:<a href="https://framapiaf.org/@mattiabunel" rel="me">@mattiabunel@framapiaf.org</a>@@
   
-* Projets de recherche en cours
+* Projets de recherche en cours :noexport:
 #+Begin_see
 Voir la [[url_for:pages,slug=projects][liste complète]].
 #+end_see
