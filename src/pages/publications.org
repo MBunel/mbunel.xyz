@@ -11,13 +11,14 @@
 * Chapitres d'ouvrages
 #+print_bibliography: :keyword ChCL
 
-* Conférences :noexport:
+* Conférences
+#+print_bibliography: :keyword Conf
 
 * Ateliers :noexport:
 
 * Articles et chapitres sans comité de lecture :noexport:
 
 * Autres
-#+print_bibliography: :notkeyword AICL
+#+print_bibliography: :notkeyword AICL,ChCL,Conf
 
 
