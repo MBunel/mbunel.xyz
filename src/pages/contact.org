@@ -1,0 +1,19 @@
+#+TITLE: Contact
+#+SLUG:contact
+#+OPTIONS: num:nil toc:nil
+
+* Canaux principaux
+- *Mail :* prénom (point) nom (@) ehess (point) fr
+- *Mastodon :* @@html:<a href="https://framapiaf.org/@mattiabunel" rel="me">@mattiabunel@framapiaf.org</a>@@
+
+* Plateformes scientifiques
+- *ORCID :*  [[https://orcid.org/0000-0001-7751-3507][0000-0001-7751-3507]]
+- *Research Gate* : https://www.researchgate.net/profile/Mattia-Bunel
+- *HAL :* https://cv.archives-ouvertes.fr/mattia-bunel
+
+* Forges logicielles
+- *GitHub :* https://github.com/MBunel
+- *GitLab* (HumaNum) : https://gitlab.huma-num.fr/mbunel
+- *Codeberg :* https://codeberg.org/mbunel
+
+* En présenciel :noexport:

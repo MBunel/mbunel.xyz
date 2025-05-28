@@ -4,29 +4,8 @@
 #+cite_export: csl meta/chicago-author-date-fr.csl
 #+bibliography: meta/biblio.bib
 
-#+BEGIN_EXPORT html
-<div about="#mbunel">
-  <link property="org:memberOf" resource="#gc" />
-  <link property="org:memberOf" resource="#ehess" />
-  <link property="foaf:homepage" href="https://mbunel.xyz" />
-  <link property="foaf:hasaccount" resource="#gh" />
-  <link property="foaf:hasaccount" resource="#ocrid" />
-  <link property="foaf:hasaccount" resource="#rg" />
-  <link property="foaf:hasaccount" resource="#hal" />
-</div>
-#+END_EXPORT
+Je suis [[url_for:pages,slug=contact][Mattia Bunel,]] géographe et géomaticien, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la plateforme géomatique.
 
-Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géograpie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
-
-
-* Contact
-- *Mail :* prénom (point) nom (@) ehess (point) fr
-- *GitHub :* @@html:<a about="#gh" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://github.com/MBunel">https://github.com/MBunel</a>@@
-- *ORCID :* @@html:<a about="#orcid" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://orcid.org/0000-0001-7751-3507">https://orcid.org/0000-0001-7751-3507</a>@@
-- *Research Gate :* @@html:<a about="#rg" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://www.researchgate.net/profile/Mattia-Bunel">https://www.researchgate.net/profile/Mattia-Bunel</a>@@
-- *HAL :* @@html:<a about="#hal" typeof="foaf:OnlineAccount" property="foaf:accountName" href="https://cv.archives-ouvertes.fr/mattia-bunel">https://cv.archives-ouvertes.fr/mattia-bunel</a>@@
-- *Mastodon :* @@html:<a href="https://framapiaf.org/@mattiabunel" rel="me">@mattiabunel@framapiaf.org</a>@@
-  
 * Projets de recherche en cours :noexport:
 #+Begin_see
 Voir la [[url_for:pages,slug=projects][liste complète]].

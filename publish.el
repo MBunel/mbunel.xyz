@@ -58,6 +58,7 @@
  :name "index"
  :input-pattern "src/index.org"
  :template "page.html"
+ :template-vars '(("extra_head" . "<link href=\"https://framapiaf.org/@mattiabunel\" rel=\"me\">"))
  :output "output/index.html"
  :url "/index.html")
 

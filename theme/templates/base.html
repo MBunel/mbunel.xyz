@@ -12,6 +12,7 @@
     {% if site_owner is defined %}<meta name="author" content="{{ site_owner }}">{% endif %}
     {% if site_description is defined %}<meta name="description" content="{{ site_description }}">{% endif %}
     {% if site_keywords is defined %}<meta name="keywords" content="{{ site_keywords }}">{% endif %}
+    {% if extra_head is defined %}{{ extra_head|safe }}{% endif %}
     {% block meta %}{% endblock %}
     <!-- Rss -->
     <!--link rel="alternate" type="application/rss+xml" title="RSS Feed"  href="{{ url_for("feed") }}"-->
@@ -68,7 +69,7 @@
     {% block footer %}
     <footer>
       <p>Fabriqué à coup de <kbd>M-x</kbd> le {{ now() | strftime("%e %b %Y") }}.</p>
-      <p><a href="{{ url_for("pages", slug="about") }}">Mattia Bunel,</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>, 2024-{{ now() | strftime("%Y") }}.</p>
+      <p><a href="{{ url_for("pages", slug="contact") }}">Mattia Bunel,</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC-BY-SA 4.0</a>, 2024-{{ now() | strftime("%Y") }}.</p>
     </footer>
     {% endblock %}
   </body>

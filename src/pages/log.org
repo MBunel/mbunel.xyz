@@ -14,3 +14,6 @@
   * Ajout de la page [[url_for:pages,slug=colophon][~/colophon~]].
   * La page ~/apropos~ est renommée en [[url_for:pages,slug=about][~/about~]].
   * Ajout de la page  [[url_for:pages,slug=slashes][~/slashes~]].
+- 28 mai :
+  * Ajout de la page [[url_for:pages,slug=contact][~/contact~]].
+  * Suppression du ~rdfa~ de la [[url_for:index,slug=index][page d'accueil]].
