@@ -3,7 +3,7 @@
 #+OPTIONS: num:nil toc:nil
 
 
-Ce (gros) [[url_for:static,file=images/dep_graph.svg][fichier svg]] présente le graphe complet des dépendances de ce site. Il est généré avec la commande  suivante :
+Ce (gros) [[url_for:static,file=images/dep_graph.svg][fichier svg]] présente le graphe complet des dépendances de ce site. Il est généré avec la commande suivante :
 
 #+LABEL: dep_graph
 #+BEGIN_SRC shell :exports both :results raw :wrap src dot
@@ -19,7 +19,7 @@ Le gestionnaire de paquets [[https://guix.gnu.org/][Guix]] permet de reproduire 
 guix time-machine -m manifest.scm -c channels.scm -- shell
 #+END_SRC
 
-Avec ~manifest.scm~ le fichier suivant:
+Avec ~manifest.scm~ le fichier suivant :
 
 #+INCLUDE: "../../manifest.scm" src scheme :eval no
 
