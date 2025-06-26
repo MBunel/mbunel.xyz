@@ -17,3 +17,5 @@
 - 28 mai :
   * Ajout de la page [[url_for:pages,slug=contact][~/contact~]].
   * Suppression du ~rdfa~ de la [[url_for:index,slug=index][page d'accueil]].
+- 26 juin :
+  * Ajout du tag meta ~"fediverse:creator"~
