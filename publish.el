@@ -51,14 +51,14 @@
 		  ("site_name" . "MBunel.xyz")
                   ("site_owner" . "Mattia Bunel")
                   ("site_description" . "Mattia Bunel's personal website.")
-		  ("site_html_prefix" . "foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org#")))
+		  ("site_html_prefix" . "foaf: http://xmlns.com/foaf/0.1/ org: http://www.w3.org/ns/org#")
+		  ("extra_head" . "<script defer src=\"https://stats.fuzzy.guru/script.js\" data-website-id=\"baab4d5a-b14a-4058-8ae9-d35ac4fa5969\"></script><link href=\"https://framapiaf.org/@mattiabunel\" rel=\"me\">")))
 
 ;; Main page
 (weblorg-route
  :name "index"
  :input-pattern "src/index.org"
  :template "page.html"
- :template-vars '(("extra_head" . "<link href=\"https://framapiaf.org/@mattiabunel\" rel=\"me\"><meta property=\"fediverse:creator\" content=\"@mattiabunel@framapiaf.org\"/>"))
  :output "output/index.html"
  :url "/index.html")
 
