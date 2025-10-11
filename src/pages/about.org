@@ -10,4 +10,4 @@ Les informations techniques sont détaillées dans la page [[url_for:pages,slug=
 
 * Vie Privée
 
-Ce site est hébergé par GitHub (Microsoft). J'utilise un serveur [[https://umami.is/docs][Umami]] auto-hébergé pour récupérer quelques statistiques de consultation (ce service n'utilise pas de cookies).  
+Ce site est hébergé par GitHub (Microsoft). J'utilise un serveur [[https://umami.is/docs][Umami]] auto-hébergé pour récupérer quelques statistiques de consultation anonymes (ce service n'utilise pas de cookies).  
