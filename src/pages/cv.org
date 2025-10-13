@@ -104,9 +104,10 @@ imprécises, de manière analogue à la démarche proposée dans ma
 thèse. Ma fonction au sein de projet consiste donc à apporter un
 support scientifique et technique sur cette question.
 
-** Participation à des projets de recherche :noexport:
+** Participation à des projets de recherche
 
-Voir la [[url_for:pages,slug=projets][liste complète]].
+- 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond]])
+- 2025, ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]])
 
 ** Évaluations  :noexport:
 
@@ -114,9 +115,9 @@ Voir la [[url_for:pages,slug=projets][liste complète]].
 + 2022 Hypelion
 
 ** Évènements organisés
-+ 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles »]] (co-organisation avec [[https://orcid.org/0009-0005-0983-388X][Marion Albertelli]])
++ 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles »]] (co-organisation avec [[https://orcid.org/0009-0005-0983-388X][Marion Albertelli]], AME-SPLOTT)
 + 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][« /Computational Notebooks for Digital Humanities/ »]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] (co-organisation dans le cadre du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]])
-+ 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]], IGN (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LASTIG, Univ. Gustave Eiffel, IGN, ENSG)
++ 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]] (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LaSTIG, Univ. Gustave Eiffel, IGN, ENSG)
 
 * Enseignements :noexport:
 
