@@ -7,8 +7,8 @@
 - 28 octobre 2025, [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 - 25 novembre 2025, [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^en cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
 - 2 décembre 2025, [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
-- 9 décembre 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][/Computational Notebooks for Digital Humanities/]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]].
-- 30 janvier 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
+- 9 décembre 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][/« Computational Notebooks for Digital Humanities/ »]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]].
+- 30 janvier 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][«  Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
 
 * Archives
 ** 2025

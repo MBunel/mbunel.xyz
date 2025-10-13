@@ -113,8 +113,10 @@ Voir la [[url_for:pages,slug=projets][liste complète]].
 + 2021 Revue Geomatica
 + 2022 Hypelion
 
-** Conférences organisées
-+ [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées,]] 2023, IGN
+** Évènements organisés
++ 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles »]] (co-organisation avec [[https://orcid.org/0009-0005-0983-388X][Marion Albertelli]])
++ 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][« /Computational Notebooks for Digital Humanities/ »]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] (co-organisation dans le cadre du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]])
++ 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]], IGN (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LASTIG, Univ. Gustave Eiffel, IGN, ENSG)
 
 * Enseignements :noexport:
 
