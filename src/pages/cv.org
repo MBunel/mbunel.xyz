@@ -119,10 +119,14 @@ support scientifique et technique sur cette question.
 + 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][« /Computational Notebooks for Digital Humanities/ »]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] (co-organisation dans le cadre du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]])
 + 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]] (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LaSTIG, Univ. Gustave Eiffel, IGN, ENSG)
 
+** Animation de réseaux scientifiques
+
+- 2024-… , participation à l'animation du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
+- 2024-… , participation à l'animation de la [[https://dphn.parisgeo.cnrs.fr/][transversalité /« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
+
 * Enseignements :noexport:
 
 Voir la [[url_for:pages,slug=cours][liste complète]].
-
 
 * Encadrement                                                      :noexport:
 
