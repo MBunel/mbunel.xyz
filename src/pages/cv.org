@@ -8,13 +8,8 @@
 Je suis docteur en géomatique, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
 
+
 * Travaux de recherche
-
-Mots clés :
-
-- Imprécision et imprécision spatiale
-- /Naive Geography/
-- Localisation spatiale
 
 ** Antérieurs à la thèse :noexport:
 
@@ -107,7 +102,7 @@ support scientifique et technique sur cette question.
 ** Participation à des projets de recherche
 
 - 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond]])
-- 2025, ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]])
+- 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]])
 
 ** Évaluations  :noexport:
 
@@ -122,7 +117,7 @@ support scientifique et technique sur cette question.
 ** Animation de réseaux scientifiques
 
 - 2024-… , participation à l'animation du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
-- 2024-… , participation à l'animation de la [[https://dphn.parisgeo.cnrs.fr/][transversalité /« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
+- 2024-… , participation à l'animation de la transversalité [[https://dphn.parisgeo.cnrs.fr/][/« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
 
 * Enseignements :noexport:
 
