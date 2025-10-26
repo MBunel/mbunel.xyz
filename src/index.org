@@ -4,7 +4,7 @@
 #+cite_export: csl meta/chicago-author-date-fr.csl
 #+bibliography: meta/biblio.bib
 
-Je suis [[url_for:pages,slug=contact][Mattia Bunel,]] géographe et géomaticien, actuellement ingénieur de recherche à l'[[https://geographie-cites.cnrs.fr][UMR Géographie-cités]] et en charge de la [[https://www.ehess.fr/fr/plateforme-géomatique-lehess][plateforme géomatique]] de l'EHESS.
+Je suis [[url_for:pages,slug=contact][Mattia Bunel,]] géographe et géomaticien, actuellement ingénieur de recherche EHESS, rattaché à l'[[https://geographie-cites.cnrs.fr][UMR Géographie-cités]] et co-responsable de la [[https://www.ehess.fr/fr/plateforme-géomatique-lehess][plateforme géomatique]] de l'EHESS.
 
 * Projets de recherche en cours :noexport:
 #+Begin_see

@@ -9,8 +9,31 @@ la palette de couleurs [[https://catppuccin.com/][Catppuccin]].
 
 La publication de ce site est automatisée par une [[https://github.com/MBunel/mbunel.xyz/blob/main/.github/workflows/main.yml][action GitHub]] reproductible, grâce à l'utilisation du gestionnaire de paquets [[https://guix.gnu.org/][Guix]].
 
-Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
+Ce (gros) [[url_for:static,file=images/dep_graph.svg][fichier svg]] présente le graphe complet des dépendances de ce site. Il est généré avec la commande suivante :
 
-Une description détaillée des paquets utilisés pour la génération de ce site est disponible sur la page [[url_for:pages,slug=graphe-dependances][graphe des dépendances.]]
+#+LABEL: dep_graph
+#+BEGIN_SRC shell :exports both :results raw :wrap src dot
+guix graph -t references $(readlink -f $GUIX_ENVIRONMENT/)
+#+END_SRC
+
+#+HEADER: :file ../../_temp/static/images/dep_graph.svg :results none
+#+RESULTS: dep_graph
+
+Le gestionnaire de paquets [[https://guix.gnu.org/][Guix]] permet de reproduire cet état du système sur différentes machines, garantissant la reproductibilté de ce site. On peut retourner à cet état du système en utilisant la commande suivante :
+
+#+BEGIN_SRC shell :eval no
+guix time-machine -m manifest.scm -c channels.scm -- shell
+#+END_SRC
+
+Avec ~manifest.scm~ le fichier suivant :
+
+#+INCLUDE: "../../manifest.scm" src scheme :eval no
+
+et ~channels.scm~ le fichier suivant :
+
+#+INCLUDE: "../../channels.scm" src scheme :eval no
+
+
+Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
 
 Les diverses modifications effectuées sont listées dans le [[url_for:pages,slug=log][log]].
