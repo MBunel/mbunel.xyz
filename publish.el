@@ -5,10 +5,17 @@
 (setq org-html-htmlize-output-type 'css)
 
 ;; Usefull functions definition
+
+;; Custom link type for inline rdfa annotation
 (org-add-link-type "rdf_link"
 		   :export (lambda (link description backend)
 			     (let* ((args (split-string link ",")))
 			       (concat "<span " (string-join args " ") ">" description "</span>"))))
+
+;; Custom link for weblorg iframe
+(org-add-link-type "url_for_iframe"
+		   :export (lambda (link description backend)
+			     (concat "<iframe src=\"" (weblorg--url-for link) "\""  ">" description "</iframe>")))
 
 (defun beautify-html-files (directory)
   "Iterate over all HTML files in a directory."
