@@ -456,12 +456,21 @@ td,th {
 }
 
 /* Images */
-img {
+img, iframe {
     display: block;
     margin: auto;
     max-width: 100%;
 }
 
+.coverfig > img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
 .svgfig > img {
     width: 80%;
 }
+
+.pdf > iframe {
+    width: 80%;
+} 

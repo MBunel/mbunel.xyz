@@ -32,7 +32,6 @@ et ~channels.scm~ le fichier suivant :
 
 #+INCLUDE: "../../channels.scm" src scheme :eval no
 
-
 Les sources sont disponibles sur le dépôt Github [[https://github.com/MBunel/mbunel.xyz][MBunel/mbunel.xyz]].
 
-Les diverses modifications effectuées sont listées dans le [[url_for:pages,slug=log][log]].
+Les diverses modifications effectuées sont listées dans la page [[url_for:pages,slug=log][log]].

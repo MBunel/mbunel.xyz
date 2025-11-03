@@ -37,4 +37,4 @@
 - *22 octobre 2024,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2024-2025, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 ** 2023
 
-- 29 juin 2023, [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées.]]
+- *29 juin 2023,* [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées.]]
