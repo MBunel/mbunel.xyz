@@ -6,8 +6,8 @@
 
 Sauf mention contraire, les contenus publiés sur ce site sont réutilisables suivant les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][Creative Commons BY-SA 4.0]].
 
-Les informations techniques sont détaillées dans la page [[url_for:pages,slug=colophon][~/colophon~]].
+Les informations techniques de ce site sont détaillées dans le [[url_for:pages,slug=colophon][colophon.]]
 
 * Vie Privée
 
-Ce site est hébergé par GitHub (Microsoft). J'utilise un serveur [[https://umami.is/docs][Umami]] auto-hébergé pour récupérer quelques statistiques de consultation anonymes (ce service n'utilise pas de cookies).  
+Ce site est hébergé par GitHub (Microsoft). J'utilise un serveur [[https://umami.is/docs][Umami]] auto-hébergé pour récupérer quelques statistiques de consultation anonymes. Umami n'utilise pas de cookies et collecte aucune information personnelle (cf. la [[https://umami.is/docs#frequently-asked-questions][FAQ]] d'Umami pour plus d'informations).  
