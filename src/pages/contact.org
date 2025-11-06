@@ -3,7 +3,7 @@
 #+OPTIONS: num:nil toc:nil
 
 * Canaux principaux
-- *Mail :* prénom =point= nom =@= ehess =point= fr ([[url_for:static,file=25EE00513874D1BC74C6E320BC7A2A280F4E9EE2.asc][PGP]])
+- *Mail :* prénom.nom@ehess.fr ([[url_for:static,file=25EE00513874D1BC74C6E320BC7A2A280F4E9EE2.asc][PGP]])
 - *Mastodon :* @@html:<a href="https://framapiaf.org/@mattiabunel" rel="me">@mattiabunel@framapiaf.org</a>@@
 
 * Plateformes scientifiques
