@@ -14,10 +14,10 @@ Voir la [[url_for:pages,slug=projects][liste complète]].
 #+end_see
 
 * Actualités
-#+INCLUDE: "./pages/actualites.org::*À venir" :only-contents t
+#+INCLUDE: "./pages/actualites.org::*À venir" :lines "-6" :only-contents t
 
 #+Begin_see
-Voir la [[url_for:pages,slug=actualites][liste complète]] de mes actualités.
+Voir la [[url_for:pages,slug=actualites][liste complète]] (et les archives) de mes actualités.
 #+end_see
 
 * Publications choisies
@@ -27,3 +27,4 @@ Voir la [[url_for:pages,slug=actualites][liste complète]] de mes actualités.
 #+Begin_see
 Voir la [[url_for:pages,slug=publications][liste complète]] de mes publications.
 #+end_see
+
