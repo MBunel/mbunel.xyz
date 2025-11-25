@@ -5,7 +5,6 @@
 
 * À venir
 
-- *25 novembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
 - *2 décembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
 - *9 décembre 2025,* Workshop [[https://2025.computational-humanities-research.org/workshops/][/« Computational Notebooks for Digital Humanities/ »]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]].
 - *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : /Analyse géométrique/.
@@ -20,6 +19,7 @@
 
 ** 2025
 
+- *25 novembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
 - *28 octobre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 - *2 juin 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
 - *23 mai 2025,* présentation du travail de stage de Gaspard Dévolvé : « /Détection de changements bi-dates 3D: Une approche opérationnelle exploitant des données lidar aéroportées/ » à SAGEO (voir la [[https://hal.science/hal-04994004v1][publication associée]]). 
