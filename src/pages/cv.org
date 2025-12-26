@@ -2,8 +2,8 @@
 #+slug:cv
 #+OPTIONS: num:nil toc:nil
 #+LANGUAGE:fr
-#+cite_export: csl meta/chicago-author-date-fr.csl
-#+bibliography: meta/biblio.bib
+#+cite_export: csl ../meta/chicago-author-date-fr.csl
+#+bibliography: ../meta/biblio.bib
 
 
 #+BEGIN_EXPORT html
