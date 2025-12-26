@@ -2,11 +2,24 @@
 #+slug:cv
 #+OPTIONS: num:nil toc:nil
 #+LANGUAGE:fr
+#+cite_export: csl meta/chicago-author-date-fr.csl
+#+bibliography: meta/biblio.bib
 
-~(en cours de mise à jour)~
 
-Je suis docteur en géomatique, actuellement ingénieur de recherche à l'EHESS et à l'UMR Géograpie-cités, en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
+#+BEGIN_EXPORT html
+<div about="#mbunel">
+  <link property="org:memberOf" resource="#gc" />
+  <link property="org:memberOf" resource="#ehess" />
+  <link property="foaf:homepage" href="https://mbunel.xyz" />
+  <link property="foaf:hasaccount" resource="#gh" />
+  <link property="foaf:hasaccount" resource="#ocrid" />
+  <link property="foaf:hasaccount" resource="#rg" />
+  <link property="foaf:hasaccount" resource="#hal" />
+</div>
+#+END_EXPORT
 
+
+Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géograpie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
 
 * Travaux de recherche
@@ -123,14 +136,11 @@ support scientifique et technique sur cette question.
 
 Voir la [[url_for:pages,slug=cours][liste complète]].
 
-* Encadrement                                                      :noexport:
+* Encadrement 
 
-- IGAST erreur
-- Matthieu
-- Jade
-- Gaspard
-- T et G
-
+- *Gaspard Delvolvé,* « Identification et sémantisation des évolutions temporelles
+entre acquisitions LiDAR » (Master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] (cf. publications associées : [cite:@Devlolve2025] et [cite:@Devlolve2025a]). 
+  
 * Vulgarisation scientifique
 - [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
 - [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
@@ -158,6 +168,9 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 |------------+-----------------------+-------------------------------|
 
 * Publications
-#+BEGIN_see
-Voir la [[url_for:pages,slug=publications][liste de mes publications]].
-#+END_see
+#+print_bibliography:
+
+#+Begin_see
+Voir la [[url_for:pages,slug=publications][liste complète]] de mes publications.
+#+end_see
+
