@@ -132,15 +132,21 @@ support scientifique et technique sur cette question.
 - 2024-… , participation à l'animation du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
 - 2024-… , participation à l'animation de la transversalité [[https://dphn.parisgeo.cnrs.fr/][/« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
 
+* Responsabilités 
+
+- 2024-… , co-responsable de la [[https://psigehess.hypotheses.org/][plateforme géomatique et humanités numériques]] de l'EHESS. 
+- 2026-… , référent du pôle géomatique de l'UMR Géographie-cités.
+ 
+
 * Enseignements :noexport:
 
 Voir la [[url_for:pages,slug=cours][liste complète]].
 
 * Encadrement 
 
-- *Gaspard Delvolvé,* « Identification et sémantisation des évolutions temporelles
-entre acquisitions LiDAR » (Master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] (cf. publications associées : [cite:@Devlolve2025] et [cite:@Devlolve2025a]). 
-  
+- *Gaspard Delvolvé,* 2024. « Identification et sémantisation des évolutions temporelles entre acquisitions LiDAR » (stage professionnel du master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] [cite:voir;@Delvolve2025;@Delvolve2025a]. 
+
+
 * Vulgarisation scientifique
 - [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
 - [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
@@ -168,9 +174,8 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 |------------+-----------------------+-------------------------------|
 
 * Publications
-#+print_bibliography:
-
 #+Begin_see
-Voir la [[url_for:pages,slug=publications][liste complète]] de mes publications.
+Seules les publications mentionées dans cette page sont listées ci-dessous. Pour voir l'entièreté de mes publications vous pouvez consulter la  [[url_for:pages,slug=publications][page suivante]].
 #+end_see
+#+print_bibliography:
 

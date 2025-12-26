@@ -21,7 +21,7 @@ guix graph -t references $(readlink -f $GUIX_ENVIRONMENT/)
 Le gestionnaire de paquets [[https://guix.gnu.org/][Guix]] permet de reproduire cet état du système sur différentes machines, garantissant la reproductibilté de ce site. On peut retourner à cet état précis en utilisant la commande suivante :
 
 #+BEGIN_SRC shell :eval no
-guix time-machine -m manifest.scm -c channels.scm -- shell
+guix time-machine -C channels.scm -- shell -m manifest.scm
 #+END_SRC
 
 Avec ~manifest.scm~ le fichier suivant :
