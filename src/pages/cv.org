@@ -144,8 +144,9 @@ Voir la [[url_for:pages,slug=cours][liste complète]].
 
 * Encadrement 
 
-- *Gaspard Delvolvé,* 2024. « Identification et sémantisation des évolutions temporelles entre acquisitions LiDAR » (stage professionnel du master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] [cite:voir;@Delvolve2025;@Delvolve2025a]. 
-
+- *Gaspard Delvolvé,* 2024. « Identification et sémantisation des évolutions temporelles entre acquisitions LiDAR » (stage professionnel du master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] [cite:voir;@Delvolve2025;@Delvolve2025a].
+- *Matthieu Ahr,* 2023. « Identification et sémantisation des évolutions temporelles d'un MNT » (stage court de développement numérique du master 2 Carthagéo), en co-direction avec [[https://www.umr-lastig.fr/Ana-Maria-Raimond-homepage/][Ana-Maria Olteanu-Raimond]]. 
+- *Grégoire Bonhoure* et *Tiphaine Jouan,* 2019. « Identification et analyse de relations de localisation et d'objets de référence utilisés dans le contexte du secours en montagne » (stage court de recherche du master 2 /Information géographique : Analyse spatiale et télédétection/ [IGAST]), en co-direction avec [[https://www.umr-lastig.fr/cecile-duchene/][Cécile Duchêne]] [cite:voir;@Bunel2019]. 
 
 * Vulgarisation scientifique
 - [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
