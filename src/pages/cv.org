@@ -22,6 +22,13 @@
 Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géograpie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
 
+* Parcours
+
+- 2016-2017, Ingénieur d'études, ERC WorldSeastem (CNRS)
+- 2017-2021, Doctorant, ANR [[https://anr.fr/Projet-ANR-16-CE23-0018][Choucas]] (IGN)
+- 2021-2024, Ingénieur d'études référent en charge des produits altimétriques (IGN)
+- 2024-… , Ingénieur de recherche en charge de la plateforme géomatique de l'EHESS (EHESS)
+
 * Travaux de recherche
 
 ** Antérieurs à la thèse :noexport:
@@ -114,6 +121,7 @@ support scientifique et technique sur cette question.
 
 ** Participation à des projets de recherche
 
+- 2016-2017, ERC WorldSeastem (ERC n^o [[https://cordis.europa.eu/project/id/313847/fr][313847]], coord. César Ducruet) 
 - 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond]])
 - 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]])
 
@@ -152,9 +160,16 @@ Voir la [[url_for:pages,slug=cours][liste complète]].
 - [[https://www.radiocampusparis.org/insitu15-la-high-tech-au-service-des-secours-en-montagne-2-19/#embed][Présentation de ma thèse]] dans l'émission [[https://www.radiocampusparis.org/in-situ/][In Situ]] sur [[https://www.radiocampusparis.org][Radio Campus Paris]]
 - [[https://twitter.com/EnDirectDuLabo/status/1092344316578676736][Animation du compte]] twitter [[https://twitter.com/EnDirectDuLabo][@EnDirectDuLabo]]
 
-* Activités de développement                                       :noexport:
+* Activités de développement
 
-** Collaboration à des projets libres
+- [[https://github.com/MBunel/lg][lg]] (LasGrep), un outil de filtrage adapté aux fichiers LiDAR (2024).
+- [[https://github.com/MBunel/spark-las][spark-las]], un reader de fichiers ~las~ pour Spark (2024).
+
+** Contribution à des logiciels libres
+
+- Contribution au gestionaire de paquets GNU [[https://codeberg.org/guix/guix][GUIX]] (2024-…)
+- Contribution à la bibliothèque de traitement de traces GPS [[https://github.com/umrlastig/tracklib][tracklib]] (2021)
+- Contribution à la traduction du logiciel de gestion bibliographique [[https://github.com/JabRef/jabref][JabRef]] (2017)    
 
 * Cursus universitaire                                             :noexport:
 
