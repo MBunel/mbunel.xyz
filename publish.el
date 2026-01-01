@@ -41,10 +41,12 @@
 
 (setq org-latex-compiler "lualatex")
 
-; For export tizk pdf in svg
+;; For export tizk pdf in svg
 (setq org-babel-latex-pdf-svg-process "pdf2svg %F %O")
 
-;; Website export def
+;;;
+;;; Website export def
+;;;
 
 ;; Definie main url
 (if (string= (getenv "WEBLORG_ENV") "prod")
