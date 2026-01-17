@@ -1,0 +1,14 @@
+#+TITLE: Guix et RDF
+#+SLUG:guix-rdf
+#+DATE:2025-12-27
+#+OPTIONS: num:nil toc:nil
+#+FILETAGS: :Guix:RDF:OWL: 
+
+Le gestionaire de packages Guix propose
+
+En n-triples, un format de sérialization du RDF. 
+
+
+#+BEGIN_SRC shell
+guix shell robot
+#+end_src
