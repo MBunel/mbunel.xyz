@@ -5,7 +5,6 @@
 
 * À venir
 
-- *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : /Analyse géométrique/.
 - *30 janvier 2026,* Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][«  Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
 - *24 février 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2025-2026, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
 - *25 mars 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
@@ -14,6 +13,10 @@
 - *23 juin 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. Séance de soutien aux projets.
   
 * Archives
+
+** 2026
+
+- *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : [[https://docs.google.com/presentation/d/1H9TlXGMJel79V0EpWARIu1g107rdz2WADpRccU1hENo/edit?usp=sharing][/Analyse géométrique/]].
 
 ** 2025
 
@@ -40,4 +43,4 @@
   
 ** 2023
 
-- *29 juin 2023,* [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][Journée d'étude Big Data et données spatialisées.]]
+- *29 juin 2023,* Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]].
