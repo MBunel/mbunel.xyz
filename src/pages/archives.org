@@ -1,6 +1,4 @@
-#+TITLE:Archives
-#+DRAFT: t
-
+#+DRAFT:t
 
 * 2026
 

@@ -13,6 +13,6 @@
 - *23 juin 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. Séance de soutien aux projets.
 
 * Archives
-#+INCLUDE: "./pages/archives.org" :minlevel 2
+#+INCLUDE: "archives.org" :lines "2-" :minlevel 2
 
 
