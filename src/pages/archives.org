@@ -1,0 +1,35 @@
+#+TITLE:Archives
+#+DRAFT: t
+
+
+* 2026
+
+- *30 janvier 2026,* Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][«  Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
+- *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : [[https://docs.google.com/presentation/d/1H9TlXGMJel79V0EpWARIu1g107rdz2WADpRccU1hENo/edit?usp=sharing][/Analyse géométrique/]].
+
+* 2025
+
+- *9 décembre 2025,* Workshop [[https://2025.computational-humanities-research.org/workshops/][/« Computational Notebooks for Digital Humanities/ »]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] ([[https://gitlab.huma-num.fr/gt-notebook/workshop/chr-2025][sources de l'atelier]]).
+- *2 décembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
+- *25 novembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- *28 octobre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
+- *2 juin 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
+- *23 mai 2025,* présentation du travail de stage de Gaspard Dévolvé : « /Détection de changements bi-dates 3D: Une approche opérationnelle exploitant des données lidar aéroportées/ » à SAGEO (voir la [[https://hal.science/hal-04994004v1][publication associée]]). 
+- *5 mai 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- *7 avril 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 3^e cycle 2024-2025, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
+- *17 mars 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2024-2025, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
+- *17 février 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2024-2025, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- *12 février 2025,* [[url_for:cours,slug=introduction-api][Introduction à l'utilisation d'une API web]].
+- *20 janvier 2025,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2024-2025, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
+  
+* 2024
+
+- *19 décembre 2024,* [[url_for:cours,slug=presentation-web-semantique][Présentation sur WikiData & SPARQL]] au 4^e atelier-garage MATE-SHS. 
+- *16 décembre 2024*, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2024-2025, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
+- *22 novembre 2024,* Présentation du chapitre [[https://www.istegroup.com/fr/produit/limperfection-des-donnees-geographiques-2/][/« Prise en compte de l’incertitude dans un processus de localisation de victimes en montagne »/]], à la [[https://tscf.clermont.hub.inrae.fr/themes-de-recherche/analyse-et-modelisation-de-l-environnement/journees-incertitudes-de-donnees-les-21-et-22-novembre-2024][journée d'étude]] de l'AD /incertitude/ du GdR Magis.
+- *19 novembre 2024*, [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2024-2025, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
+- *22 octobre 2024,* [[https://psigehess.hypotheses.org/2868][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2024-2025, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
+  
+* 2023 
+
+- *29 juin 2023,* Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]].
