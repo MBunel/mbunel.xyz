@@ -2,6 +2,7 @@
 
 * 2026
 
+- *4 février 2026,* « Vers une modélisation floue de la gare perçue : entre infrastructure de transport, équipement urbain et espace vécu », présentation à la conférence [[https://theoquant2026.sciencesconf.org/?lang=fr][Théoquant]].
 - *30 janvier 2026,* Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][«  Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
 - *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : [[https://docs.google.com/presentation/d/1H9TlXGMJel79V0EpWARIu1g107rdz2WADpRccU1hENo/edit?usp=sharing][/Analyse géométrique/]].
 
