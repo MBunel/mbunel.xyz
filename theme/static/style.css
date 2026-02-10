@@ -281,11 +281,22 @@ hgroup > p {
     margin-top: 0;
 }
 
-.org-src-container, blockquote {
-    box-shadow: 10px 10px 0 -5px var(--attention-1);
+.org-src-container, blockquote, .abstract {
     background: var(--mantle);
     padding: 0.5em 1em;
     margin: 1em 2em 2em;
+}
+
+.org-src-container {
+    box-shadow: 0px 3px 0px 0px var(--attention-1);
+}
+
+blockquote {
+    box-shadow: 0px 3px 0px 0px var(--attention-1);
+}
+
+.abstract {
+    box-shadow: 0px 3px 0px 0px var(--attention-1);
 }
 
 .csl-bib-body {
@@ -353,6 +364,22 @@ kbd, code {
 
 .org-src-container > pre.src-shell::before {
   content: "Shell";
+}
+
+.org-src-container > pre.src-bash::before {
+  content: "bash";
+}
+
+.org-src-container > pre.src-yaml::before {
+  content: "yaml";
+}
+
+.org-src-container > pre.src-diff::before {
+  content: "diff";
+}
+
+.org-src-container > pre.src-python::before {
+  content: "Python";
 }
 
 .org-keyword {
@@ -476,3 +503,14 @@ img, iframe {
 .pdf > iframe {
     width: 80%;
 } 
+
+/* TODO */
+.todo {
+    font-family: "Space Mono", "DejaVu Sans Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: auto;
+    background-color: var(--mantle);
+    box-shadow: 0.1em 0.2em 0.2em var(--crust);
+    padding: 0.1em 0.2em;
+}
