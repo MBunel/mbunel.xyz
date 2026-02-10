@@ -52,32 +52,13 @@ de recherche. La question que j’ai principalement traitée est celle du
 traitement, de l’analyse et de la représentation des données de flux
 dont nous disposions.
 
-** Travaux de thèse :noexport:
+** Travaux de thèse
 
-Ma thèse de doctorat a été réalisée dans le cadre du projet [[http://choucas.ign.fr/][Choucas]], dont l’objectif est de développer des
-méthodes et des outils permettant aux secouristes des pelotons de
-gendarmerie de haute-montagne (PGHM) de localiser plus efficacement
-les personnes perdues ou blessées en montagne, et ne pouvant pas
-décrire leur position avec suffisamment de précision. Cela passe par
-le développement d’outils d’aide à la décision, par l’enrichissement
-des données métier à la disposition des secouristes, par le
-développement d’interfaces IHM, et par l’automatisation de la
-spatialisation des positions écrites oralement. Mon travail de thèse
-portait plus spécifiquement sur ce dernier point. Mon objectif était
-de développer une méthode permettant d’identifier la position de la
-victime contactant les secours à partir des indications données par
-téléphone. Pour ce faire j’ai développé une méthode fondée sur un
-principe de décomposition.  L’ensemble des indices donnés par la
-victime pour décrire sa position (ex. « Je suis sous une route », « Je
-suis proche d’un chalet ») sont spatialisés indépendamment, puis
-fusionnés, de manière à construire la zone correspondant à l’ensemble
-de ces descriptions. Pour permettre la prise en compte de
-l’imprécision, inhérente à une description orale de position, la
-méthode proposée s’appuie sur la théorie des sous- ensembles
-flous. Chaque des zones spatialisant un indice de localisation donné
-est représentée sous la forme d’un sous-ensemble flou, ce qui permet
-une meilleure modélisation des transitions entre la zone correspondant
-à l’indice de localisation et celle qui n’y correspond pas.
+Ma thèse de doctorat [cite:@Bunel2021b] a été réalisée dans le cadre du projet [[http://choucas.ign.fr/][Choucas]], dont l’objectif est de développer des méthodes et des outils permettant aux secouristes des pelotons de gendarmerie de haute-montagne (PGHM) de localiser plus efficacement les personnes perdues ou blessées en montagne, et ne pouvant pas décrire leur position avec suffisamment de précision. Cela passe par le développement d’outils d’aide à la décision, par l’enrichissement des données métier à la disposition des secouristes, par le
+développement d’interfaces IHM, et par l’automatisation de la spatialisation des positions écrites oralement. Mon travail de thèse portait plus spécifiquement sur ce dernier point. Mon objectif était de développer une méthode permettant d’identifier la position de la victime contactant les secours à partir des indications données par
+téléphone. Pour ce faire j’ai développé une méthode fondée sur un principe de décomposition.  L’ensemble des indices donnés par la victime pour décrire sa position (ex. « Je suis sous une route », « Je suis proche d’un chalet ») sont spatialisés indépendamment, puis fusionnés, de manière à construire la zone correspondant à l’ensemble de ces descriptions. Pour permettre la prise en compte de l’imprécision, inhérente à une description orale de position, la méthode proposée s’appuie sur la théorie des sous-ensembles flous. Chaque des zones spatialisant un indice de localisation donné est représentée sous la forme d’un sous-ensemble flou, ce qui permet une meilleure modélisation des transitions entre la zone correspondant à l’indice de localisation et celle qui n’y correspond pas.
+
+Cette thése a été récompensée en 2023 par le [[https://gdr-magis.cnrs.fr/2023/06/16/prix-de-these-2023/][prix de thèse du GDR Magis.]]
 
 ** Travaux postérieurs à la thèse :noexport:
 
@@ -122,8 +103,8 @@ support scientifique et technique sur cette question.
 ** Participation à des projets de recherche
 
 - 2016-2017, ERC WorldSeastem (ERC n^o [[https://cordis.europa.eu/project/id/313847/fr][313847]], coord. César Ducruet) 
-- 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond]])
-- 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]])
+- 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond,]] LaSTIG, Univ. Gustave Eiffel, IGN, ENSG)
+- 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]], UMR Géographie-cités, CNRS)
 
 ** Évaluations  :noexport:
 
@@ -137,15 +118,14 @@ support scientifique et technique sur cette question.
 
 ** Animation de réseaux scientifiques
 
-- 2024-… , participation à l'animation du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
-- 2024-… , participation à l'animation de la transversalité [[https://dphn.parisgeo.cnrs.fr/][/« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
-
+- 2024-… , co-animateur du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
+- 2024-… , co-animateur de la transversalité [[https://dphn.parisgeo.cnrs.fr/][/« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
+  
 * Responsabilités 
 
 - 2024-… , co-responsable de la [[https://psigehess.hypotheses.org/][plateforme géomatique et humanités numériques]] de l'EHESS. 
 - 2026-… , référent du pôle géomatique de l'UMR Géographie-cités.
  
-
 * Enseignements :noexport:
 
 Voir la [[url_for:pages,slug=cours][liste complète]].
@@ -167,7 +147,7 @@ Voir la [[url_for:pages,slug=cours][liste complète]].
 
 ** Contribution à des logiciels libres
 
-- Contribution au gestionaire de paquets GNU [[https://codeberg.org/guix/guix][GUIX]] (2024-…)
+- Contribution au gestionaire de paquets GNU [[https://codeberg.org/guix/guix][Guix]] (2024-…)
 - Contribution à la bibliothèque de traitement de traces GPS [[https://github.com/umrlastig/tracklib][tracklib]] (2021)
 - Contribution à la traduction du logiciel de gestion bibliographique [[https://github.com/JabRef/jabref][JabRef]] (2017)    
 
@@ -191,7 +171,7 @@ cathographie et géomatique (/master Carthagéo,/ 2016).
 
 * Publications
 #+Begin_see
-Seules les publications mentionées dans cette page sont listées ci-dessous. Pour voir l'entièreté de mes publications vous pouvez consulter la  [[url_for:pages,slug=publications][page suivante]].
+Seules les publications mentionées dans cette page sont listées ci-dessous. Pour voir l'entièreté de mes publications vous pouvez consulter la  [[url_for:pages,slug=publications][page /publications/]].
 #+end_see
 #+print_bibliography:
 
