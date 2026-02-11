@@ -1,27 +1,426 @@
-#+TITLE: Introduction à l'utilisation d'API Web
-#+SLUG:introduction-api
-#+DATE:2025-02-12
+#+TITLE: Introduction à l'utilisation d'APIs Web
+#+SLUG:tp-introduction-api
 #+OPTIONS: num:nil toc:nil
+#+DESCRIPTION: Cours et TP d'introduction à la manipulation d'APIs Web
+#+IMAGE: https://mbunel.xyz/static/images/profil_elevation.png
+
+#+BEGIN_abstract
+Ce document est la mise en forme d'un notebook utilisé dans le cadre d'une [[https://dphn.parisgeo.cnrs.fr/formation/API.html][formation]] d'introduction à la manipulation d'APIs web. Cette formation a initialement été dispensée le 12 février 2025, dans le cadre des activités de la transversalité /[[https://dphn.parisgeo.cnrs.fr/][Données et protocoles dans les Humanités Numériques/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
+
+Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][support de formation]] associé, le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][/notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
+#+END_abstract
 
 
-Plan :
-1. Introduction
-2. Définir le problème
-3. Un tour du web
-4. API Web
-5. Formats de sérialisation
-6. Protocoles
-7. Les différentes architectures
-8. La boîte à outils
-9. Quelques problèmes courants
-10. Et si je veux construire mon API ?
-11. Un peu de pratique
+Ce notebook décrit un exemple d'utilisation chainée de trois API. L'objectif est de présenter différentes API utiles et de montrer le travail de "plomberie" qu'il est parfois nécessaire d'effecuer pour combiner différentes API.
+
+Trois API différentes sont utilisées:
+
+- L'API de géocodage de la BAN ([[https://adresse.data.gouv.fr/][site officiel]], [[https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage][documentation]] et [[https://geoservices.ign.fr/documentation/services/services-geoplateforme/geocodage][/swagger/]])
+- L'API itinéraire du Géoportail ([[https://www.geoportail.gouv.fr/depot/swagger/itineraire.html][/swagger/]])
+- L'API élévation du Géportail ([[https://geoservices.ign.fr/documentation/services/services-deprecies/calcul-altimetrique-rest][documentation]])
+
+Ce notebook utilise python, mais toutes ces opérations sont réalisables dans un autre langage de programmation.
+
+L'objectif de ce TP est de construire le profil de l'itinéraire de déplacement entre deux lieux dont on ne connait que le toponyme.
+
+Les étapes sont les suivantes:
+
+1. Géocodage
+   1. Identifier les coordonées du point de départ, le /pré de madame Carles/
+   2. Identifier les coordonées du point d'arrivée, le /refuge des Écrins/
+2. Calcul de l'itinéraire pédestre entre ces deux lieux
+3. Drapage de l'itinéraire sur un MNT (récupération des Z de chaque point)
+4. Cartographie des résultats
+
+* Préparation
+
+On commence par installer les paquets nécessaires au TP qui ne sont pas distribués avec python.
+
+#+begin_src python
+# le point d'exclamation (!) qui précéde la commande *pip* indique que le contenu
+# de cette ligne doit être exécuté dans le shell de la machine et non en python
+!pip install curlify shapely folium matplotlib
+#+end_src
+
+On importe ensuite les biblothèques nécessaires à l'extraction des données :
+
+- =requests= : Pour faire facilement des requêtes HTTP
+- =json= : Pour lire et modifier des json
+- =urllib= : Moyen standard pour faire des requêtes HTTP, utilisé en complément de =requests=
+- =curlify= : Facultatif, utilisé ici pour construire l'équivament
+  =curl= des requêtes HTTP
+
+*NB:* Les autres paquets téléchargés (/i.e./ =shapely=, =folium= et =matplotlib=) seront utilisés (et importés) plus bas.
+
+#+begin_src python
+import requests
+import curlify
+import json    # Dans la bibliothèque standard
+import urllib  # Dans la bibliothèque standard
+#+end_src
+
+* Géocodage
+
+Dans cette première étape on va utiliser l'API de géocodage de la Base adresse nationale (BAN) pour récupérer les coordonées d'un lieu.
+
+Pour ce faciliter la vie on met l'adresse de l'API dans une variable, comme ça il n'est pas nécessaire de la copier à chaque utilisation.
+
+#+begin_src python
+url_geocodage = "https://data.geopf.fr/geocodage/search"
+#+end_src
+
+** Point de départ
+
+#+begin_src python
+# Géocodage du "pré de madame carles"
+querystring = {
+    "q":"pré de madame carles",
+    "limit":"1",
+    "index":"poi"
+    }
+#+end_src
+
+Voici la liste des paramètres utilisés :
+
+- =q= : nom, description du lieu
+- =limit= : nombre de candidats retournés (de 1 à 20)
+- =index= : index de recherche. Les valeurs possibles sont :
+- =address= pour la recherche par adresse
+- =parcel= pour la recherche par parcelle cadastrale
+- =poi= pour la recherche par lieu et unité administrative
+
+Les autres paramètres disponibles (p. ex. =lat=, =lon=, =postcode=... )
+sont détaillés dans le
+[[https://data.geopf.fr/geocodage/openapi][/swagger/]] de l'API (cf.
+route =GET /search=).
+
+Exécution de la requête
+
+#+begin_src python
+# On fait une requête GET
+# à l'adresse contenue dans la variable <url_geocodage>
+# le contenu de la variable <querystring> est transformé en paramètres de requête
+response = requests.request("GET", url_geocodage, params=querystring)
+#+end_src
+
+Si c'est nécessaire, on peut utiliser la bibliothèque =curlify= pour
+construire une commande =curl= équivalente à la fonction python
+précédement exécutée.
+
+#+begin_src python
+# On peut utiliser curlify pour construire la requête curl correspondante
+curlify.to_curl(response.request)
+#+end_src
+
+#+begin_src bash
+curl -H 'User-Agent: python-requests/2.32.5' -H 'Accept-Encoding: gzip, deflate' -H 'Accept: */*' -H 'Connection: keep-alive' 'https://data.geopf.fr/geocodage/search?q=pr%C3%A9+de+madame+carles&limit=1&index=poi'
+#+end_src
+
+Notez la présence du /header/ =Accept-Encoding: gzip, deflate, zstd=, ce dernier indique au serveur HTTP que le client accepte les réponses compressées (gzip, deflate et zstd sont des algorithmes de compression). Si vous exécutez directement cette commande, le résultat ne sera pas lisible. Il faut supprimer cette ligne du header.
+
+La requête que l'on vient d'exécuter nous renvoie un fichier =json= dont le schéma est détaillé dans la [[https://data.geopf.fr/geocodage/openapi][documentation]].
+
+On peut l'afficher directement en utilisant la méthode =.json= de l'objet =response=.
+
+#+begin_src python
+# On affiche la réponse au format json
+response.json()
+#+end_src
+
+#+BEGIN_SRC json
+{'type': 'FeatureCollection',
+ 'features': [{'type': 'Feature',
+   'geometry': {'type': 'Point', 'coordinates': [6.4202, 44.916367]},
+   'properties': {'name': ['Pré de Madame Carle'],
+    'toponym': 'Pré de Madame Carle',
+    'category': ['lieu-dit non habité', 'élément topographique ou forestier'],
+    'postcode': ['05290', '05340'],
+    'citycode': ['05101', '05'],
+    'city': ['Vallouise-Pelvoux'],
+    'extrafields': {'cleabs': 'PAIE_NAT0000000075584631'},
+    'classification': 7,
+    'territory': 'METROPOLE',
+    'score': 0.3788583509513742,
+    '_type': 'poi'}}]}
+#+END_SRC
+
+Comme on peut le voir, cette structure de données contient beaucoup d'informations. Or, la seule qui nous intéresse réelement ici sont les coordonées de la géométrie retournée.
+
+Si l'on observe attentivement la réponse, on peut trouver les coordonées de la géométrie sous la forme d'une liste de deux valeurs. Cette liste est associée à la clé =coordinates=. L'élément =coordinates= est lui-même inclu dans un objet, associé à la clé =geometry=. Enfin, l'objet contenant la clé =geometry= est inclu dans une liste, elle-même
+associée à la clé =feature= d'un dernier objet.
+
+Le chemin de nos coordonées est donc : =features > 0 > geometry > coordinates=. Valeur que l'on pourra récupérer avec la syntaxe suivante :
+
+#+begin_src python
+# Pour traiter l'information il faut récupérer ce qui nous intéresse
+if response.status_code == 200:
+    coord_pre = response.json()["features"][0]["geometry"]["coordinates"]
+else:
+  raise Exception(response.status_code, response.reason)
+#+end_src
+
+On peut alors vérifier que la variable =corrd_pre= nouvellement créée contient bien le résultat attendu, les coordonées du lieu.
+
+#+begin_src python
+print(coord_pre)
+#+end_src
+
+#+begin_src json
+[6.4202, 44.916367]
+#+end_src
+
+** Point d'arrivée
+
+Le géocodage du point d'arrivée suit la même procédure que le géocodage du point de départ.
+
+#+begin_src python
+# Paramètres de la requête
+querystring = {
+    "q":"refuge des écrins",
+    "limit":"1",
+    "index":"poi",
+    }
+#+end_src
+
+#+begin_src python
+# Exécution d'une requête GET
+response = requests.request("GET", url_geocodage, params=querystring)
+#+end_src
+
+#+begin_src python
+# Récupération des résultats
+if response.status_code == 200:
+    coord_ref = response.json()["features"][0]["geometry"]["coordinates"]
+else:
+  raise Exception(response.status_code, response.reason)
+#+end_src
+
+On peut vérifier que l'on dispose bien de coordonées pour ce second lieu.
+
+#+begin_src python
+print(coord_ref)
+#+end_src
+
+#+begin_src json
+[6.38304, 44.947332]
+#+end_src
+
+Au terme de cette première partie on dispose donc de deux informations, les coordonées de deux lieux distincs, chacun récupérés à l'aide d'une requête à l'API de Géocodage de la BAN.
+
+** Calcul itinéraire
+
+Dans cette seconde partie on va utiliser une nouvelle API, un peu plus compliquée, pour calculer l'itinéraire entre les deux coordonées précédement calculées.
+
+#+begin_src python
+url_itineraire = "https://data.geopf.fr/navigation/itineraire"
+#+end_src
+
+On défini les différents paramètres de la requête :
+
+#+begin_src python
+querystring = {
+    # Moteur de calcul d'itinéraire utilisé (ici OSRM)
+    "resource":"bdtopo-osrm",
+    # Coordonées de départ et d'arrivée
+    "start": ",".join(map(str, coord_pre)),
+    "end": ",".join(map(str, coord_ref)),
+    # Profil de déplacement
+    "profile":"pedestrian",
+    # On calcule l'itinéraire le plus court, pas le plus rapide
+    "optimization":"shortest",
+    # On renvoie la géométrie en geojson (format standardisé)
+    "geometryFormat":"geojson",
+    "getSteps":"false",
+    "getBbox":"false",
+    "distanceUnit":"kilometer",
+    "timeUnit":"hour",
+    "crs":"EPSG:4326"
+    }
+
+# On encode l'objet au format url, mais on exige la conservation des virgules
+# en général ce n'est pas nécessaire de passer par là, mais dans ce cas c'est
+# obligé à cause des coordonées séparées par des virgules
+querystring_str = urllib.parse.urlencode(querystring, safe=",:-")
+#+end_src
+
+La liste complète des paramétres est disponible
+[[https://geoservices.ign.fr/documentation/services/api-et-services-ogc/itineraires/documentation-du-service-du-calcul][ici]].
+
+#+begin_src python
+# Exécution de la requête
+# Les paramétres sont transmis par l'url (requête GET)
+itineraire_response = requests.request("GET", url_itineraire,  params=querystring_str)
+#+end_src
+
+#+begin_src python
+# Traitement des résultats
+if itineraire_response.status_code == 200:
+    itineraire_coords = itineraire_response.json()["geometry"]["coordinates"]
+else:
+  raise Exception(itineraire_response.status_code, itineraire_response.reason)
+#+end_src
+
+#+begin_src python
+ # Affichage des résultats
+itineraire_response.json()
+#+end_src
+
+#+BEGIN_SRC json
+{'resource': 'bdtopo-osrm',
+ 'resourceVersion': '2025-02-14',
+ 'start': '6.419619,44.915979',
+ 'end': '6.383115,44.947431',
+ 'profile': 'pedestrian',
+ 'optimization': 'shortest',
+ 'geometry': {'coordinates': [[6.419619, 44.915979],
+   [6.419453, 44.916104],
+   [6.41934, 44.916207],
+   [6.419131, 44.916356],
+   [6.418961, 44.916482],
+   [6.41872, 44.916671],
+   ...],
+  'type': 'LineString'},
+ 'crs': 'EPSG:4326',
+ 'distanceUnit': 'kilometer',
+ 'timeUnit': 'hour',
+ 'distance': 8.6987,
+ 'duration': 2.1770555555555555,
+ 'constraints': [],
+ 'portions': [{'start': '6.419619,44.915979',
+   'end': '6.383115,44.947431',
+   'distance': 8.6987,
+   'duration': 2.1770555555555555,
+   'steps': []}]}
+#+END_SRC
+
+** Drapage itinéraire
+
+Dans cette partie nous allons utiliser l'API élévation du géoportail pour calculer le Z associé à chaque point de l'itinéraire.
+
+#+begin_src python
+# Url de l'API élévation
+url_elevation = "https://data.geopf.fr/altimetrie/1.0/calcul/alti/rest/elevation.json"
+#+end_src
+
+#+begin_src python
+# On crée une liste des latitudes et une liste des longitudes à partir
+# de la liste "itineraire_coords" (le résultat de la requête précédente)
+it_lon, it_lat = [i[0] for i in itineraire_coords], [i[1] for i in itineraire_coords]
+#+end_src
+
+#+begin_src python
+payload = {
+    # On transforme la liste des coordonées en une liste de valeurs séparées
+    # par des pipes ("|")
+    "lon": "|".join(map(str, it_lon)),
+    "lat": "|".join(map(str, it_lat)),
+    # Nom du MNT utilisé pour définir la valeur Z
+    "resource": "ign_rge_alti_wld",
+    # Caractère utilisé pour séparer les différentes valeurs de latitude et de
+    # longitude
+    "delimiter": "|",
+    "indent": "false",
+    "measures": "false",
+    # On ne retroune que le z
+    "zonly": "true"
+}
+#+end_src
+
+#+begin_src python
+# On utilise une requête POST
+# Cette fois, les paramétres sont transmis à l'aide de l'option "json="
+# Cette option indique à requests que les paramètres de la requête sont au format
+# json, et doivent donc être transmis dans le corps de la requête
+z_response = requests.request("POST", url_elevation, json=payload)
+#+end_src
+
+#+begin_src python
+# On récupère la liste de Z
+if z_response.status_code == 200:
+    it_z = z_response.json()["elevations"]
+else:
+  raise Exception(z_response.status_code, z_response.reason)
+#+end_src
+
+Au terme de cette troisième étape on dispose de 3 listes :
+
+1. =it_lon= : Liste des longitudes (produire par l'API itinéraire)
+2. =it_lat= : Liste des latitudes (produite par l'API itinéraire)
+3. =it_z= : Liste des Z (produite par l'API élévation)
+
+On peut donc reconstuire une polyligne à partir de ces trois listes.
+
+* Visualisation des résultats
+
+Dans cette partie nous allons représenter les résultats calculés.
+
+#+begin_src python
+# Shapely est une bibliothèque qui permet d'intéragir plus simplement avec OGR (traitement des géométries vectorielles)
+import shapely
+#+end_src
+
+#+begin_src python
+# La fonction linestrings permet de créer directement une ligne à partir de nos trois listes
+line_3D = shapely.linestrings(it_lon, it_lat, it_z)
+#+end_src
+
+#+begin_src python
+# On récupére le centroide de la ligne (sans son Z)
+line_cent = list(line_3D.centroid.coords)[0][::-1]
+#+end_src
+
+** Cartographie
+
+#+begin_src python
+# Folium est une bibliothèque qui permet de construire des cartes interactives
+# avec leaflet
+import folium
+#+end_src
+
+#+begin_src python
+# On crée une carte, centrée sur le centroide de la ligne
+m = folium.Map(location=line_cent, zoom_start=14)
+# On ajoute notre polyligne au canevas
+folium.GeoJson(shapely.to_geojson(line_3D), ).add_to(m)
+m  # On affiche la carte
+#+end_src
+
+#+ATTR_HTML: :class coverfig :style height:500px;
+[[url_for_iframe:static,file=html/tp_iframe.html]]
+
+** Profil d'élévation
+
+Et voici la dernière étape, la construction du profil d'élévation.
+
+#+begin_src python
+# Matplotlib permet de réaliser des graphiques
+import matplotlib.pyplot as plt
+#+end_src
+
+#+begin_src python
+# On calcule l'abscisse curviligne de chaque point de la ligne.
+# Le paramètre "normalized" et le "*100" permettent d'exprimer la distance
+# en % de progression
+it_abs = [line_3D.line_locate_point(shapely.Point(i), normalized=True) * 100 for i in line_3D.coords]
+#+end_src
+
+#+begin_src python
+# On crée le profil
+fig, ax = plt.subplots()
+
+# Axe des X : abscisse curviligne, axe des Y: Altitude du point
+ax.plot(it_abs , it_z)
+
+ax.set(xlabel='Distance (%)', ylabel='Altitude (m)',
+       title='Profil')
+ax.grid()
+plt.show()
+#+end_src
+
+[[url_for_img:static,file=images/profil_elevation.png]]
+
+*Et voilà...*
+
+[[url_for_img:static,file=images/mignons.gif]]
 
 
-- [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][Accèder]] au support de formation
-
-- [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][Accèder]] au TP
-
-- On pourra intéragir avec le TP en [[https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F/HEAD?urlpath=%2Fdoc%2Ftree%2F%2FTP%2FTP_api.ipynb][utilisant binder]] (quand ça marche) ou [[https://datalab.sspcloud.fr/launcher/ide/jupyter-python?name=jupyter-python&version=2.2.2&s3=region-ec97c721&init.personalInit=%C2%ABhttps%3A%2F%2Fgitlab.huma-num.fr%2Fmbunel%2Fformation-apis%2F-%2Fraw%2Fmain%2FTP%2Fopen-notebook.sh%3Fref_type%3Dheads%C2%BB&autoLaunch=true][l'instance onyxia]] de l'INSEE (nécessite un compte). 
-
-Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][support de formation]], le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][/notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).

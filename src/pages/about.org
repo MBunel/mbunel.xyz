@@ -11,3 +11,5 @@ Les informations techniques de ce site sont détaillées dans le [[url_for:pages
 * Vie Privée
 
 Ce site est hébergé par GitHub (Microsoft). J'utilise un serveur [[https://umami.is/docs][Umami]] auto-hébergé pour récupérer quelques statistiques de consultation anonymes. Umami n'utilise pas de cookies et collecte aucune information personnelle (cf. la [[https://umami.is/docs#frequently-asked-questions][FAQ]] d'Umami pour plus d'informations).  
+
+Sauf mention du contraire, les pages de ce site n'utilisent pas de ressources externes. 
