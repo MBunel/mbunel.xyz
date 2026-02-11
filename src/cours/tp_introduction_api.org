@@ -1,11 +1,11 @@
 #+TITLE:TP d'introduction à la manipulation d'APIs Web
 #+SLUG:tp-introduction-api
 #+OPTIONS: num:nil toc:nil
-#+DESCRIPTION: Description
-#+OG_COVERFIG: nesn
+#+DESCRIPTION: TP d'introduction à la manipulation d'APIs Web
+#+IMAGE: https://mbunel.xyz/static/images/profil_elevation.png
 
 #+BEGIN_abstract
-Ce document est la mise en forme d'un TP d'introduction à la manipulation d'APIs Web.
+Ce document est la mise en forme d'un notebook utilisé dans le cadre d'une formation d'introduction à la manipulation d'APIs web.
 #+END_abstract
 
 Ce notebook décrit un exemple d'utilisation chainée de trois API. L'objectif est de présenter différentes API utiles et de montrer le travail de "plomberie" qu'il est parfois nécessaire d'effecuer pour combiner différentes API.
@@ -225,7 +225,7 @@ querystring = {
     "profile":"pedestrian",
     # On calcule l'itinéraire le plus court, pas le plus rapide
     "optimization":"shortest",
-    # On renvoie la géométrie en geojson (format stadardié)
+    # On renvoie la géométrie en geojson (format standardisé)
     "geometryFormat":"geojson",
     "getSteps":"false",
     "getBbox":"false",

@@ -2,7 +2,7 @@
 #+SLUG:guix-rdf
 #+DATE:2025-12-27
 #+OPTIONS: num:nil toc:nil
-#+FILETAGS: :Guix:RDF:OWL: 
+#+FILETAGS: :guix:rdf:owl:
 
 Le gestionaire de packages Guix propose
 
