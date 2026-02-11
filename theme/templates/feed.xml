@@ -20,7 +20,7 @@
     <pubDate>{{ posts | first | getattr("date") | strftime("%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
     <lastBuildDate>{{ now() | strftime("%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
     <generator>{{ meta.generator }}</generator>
-    <webMaster>{{ site_owner | default("web@master (Blog Author)") }}</webMaster>
+    <webMaster>{{ site_owner }}</webMaster>
     <image>
       <url>{{ url_for("static", file="archi.jpg") }}</url>
       <link>{{ url_for("index") }}</link>
@@ -30,7 +30,7 @@
     <item>
       <title>{{ post.title }}</title>
       <link>{{ url_for("posts", slug=post.slug) }}</link>
-      <author>{{ post.author|default("author@mail.com (Blog Author)") }}</author>
+      <author>{{ site_owner }}</author>
       <guid isPermaLink="false">{{ url_for("posts", slug=post.slug) }}</guid>
       <pubDate>{{ post.date|strftime("%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
       <description><![CDATA[{{ post.html|safe }}]]></description>
