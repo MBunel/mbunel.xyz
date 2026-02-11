@@ -3,6 +3,7 @@
 #+OPTIONS: num:nil toc:nil
 #+DESCRIPTION: Cours et TP d'introduction à la manipulation d'APIs Web
 #+IMAGE: https://mbunel.xyz/static/images/profil_elevation.png
+#+DATE: 2026-02-11
 
 #+BEGIN_abstract
 Ce document est la mise en forme d'un notebook utilisé dans le cadre d'une [[https://dphn.parisgeo.cnrs.fr/formation/API.html][formation]] d'introduction à la manipulation d'APIs web. Cette formation a initialement été dispensée le 12 février 2025, dans le cadre des activités de la transversalité [[https://dphn.parisgeo.cnrs.fr/][Données et protocoles dans les Humanités Numériques]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
