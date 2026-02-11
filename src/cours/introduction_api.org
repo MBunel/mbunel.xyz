@@ -7,7 +7,7 @@
 #+BEGIN_abstract
 Ce document est la mise en forme d'un notebook utilisé dans le cadre d'une [[https://dphn.parisgeo.cnrs.fr/formation/API.html][formation]] d'introduction à la manipulation d'APIs web. Cette formation a initialement été dispensée le 12 février 2025, dans le cadre des activités de la transversalité [[https://dphn.parisgeo.cnrs.fr/][Données et protocoles dans les Humanités Numériques]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
 
-Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][supporte de formation]] associé, le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
+Le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/raw/main/Support/diapo.pdf?ref_type=heads][supporte de formation]] associé, le [[https://gitlab.huma-num.fr/mbunel/formation-apis/-/blob/main/TP/TP_api.ipynb?ref_type=heads][/notebook/ du TP]] et les [[https://gitlab.huma-num.fr/mbunel/formation-apis][sources du projet]] sont disponibles sous les termes de la licence [[https://creativecommons.org/licenses/by-sa/4.0/deed.fr][CC-BY-SA 4.0]] (Attribution — Partage dans les mêmes conditions).
 #+END_abstract
 
 
