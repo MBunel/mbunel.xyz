@@ -16,14 +16,13 @@
       rel="self" type="application/rss+xml" />
     <link>{{ url_for("index") }}</link>
     <description><![CDATA[]]></description>
-    <language>en</language>
+    <language>fr</language>
     <pubDate>{{ posts | first | getattr("date") | strftime("%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
     <lastBuildDate>{{ now() | strftime("%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
     <generator>{{ meta.generator }}</generator>
     <webMaster>{{ site_owner | default("web@master (Blog Author)") }}</webMaster>
     <image>
-      <url>{{ url_for("index") }}media/img/8bitme.png</url>
-      <title>Blog Author</title>
+      <url>{{ url_for("static", file="archi.jpg") }}</url>
       <link>{{ url_for("index") }}</link>
     </image>
 

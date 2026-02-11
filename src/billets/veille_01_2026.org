@@ -1,6 +1,16 @@
 #+TITLE: [Veille] Janvier 2026
 #+SLUG:veille-janvier-2026
+#+DESCRIPTION: Veille
+#+DATE: 2026-02-11
 #+FILETAGS: :veille:
 
 - [[https://www.arte.tv/fr/videos/121430-001-A/cam-gaze-a-la-recherche-des-premieres-camgirls/][Cam Gaze : À la recherche des premières camgirls]].
 - [[https://www.canal-u.tv/chaines/umr8504/un-paysage-lugubre][Un paysage lugubre]]
+- https://www.huffingtonpost.fr/international/article/l-appetit-de-donald-trump-pour-le-groenland-resulterait-aussi-d-une-approximation-geographique_259406.html
+- https://www.youtube.com/watch?v=bVjECMbCZOo
+- https://ryanfleck.ca/2024/the-magnificence-of-org/
+- https://pro.nologos.net/slides.html via https://nicolas-delsaux.hd.free.fr/Shaarli/shaare/cZZHag
+- https://theoccasionalinformationist.com/2026/01/20/the-bibliographic-elements-of-marie-curie/ via https://www.arthurperret.fr/veille/2026-01-22-l-ambitieuse-vision-bibliographique-de-marie-curie.html
+- https://docs.asciinema.org/
+- https://guix.gnu.org/en/blog/2026/gnu-guix-1.5.0-released/
+- https://public.dalibo.com/exports/formation/manuels/formations/perf1/perf1.handout.html

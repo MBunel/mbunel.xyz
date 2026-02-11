@@ -1,6 +1,7 @@
 #+TITLE: Guix et RDF
 #+SLUG:guix-rdf
 #+DATE:2025-12-27
+#+DRAFT: t
 #+OPTIONS: num:nil toc:nil
 #+FILETAGS: :guix:rdf:owl:
 

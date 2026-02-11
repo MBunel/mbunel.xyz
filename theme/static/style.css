@@ -383,6 +383,10 @@ kbd, code {
   content: "Python";
 }
 
+.org-src-container > pre.src-latex::before {
+  content: "LaTeX";
+}
+
 .org-keyword {
     color: var(--lavender);
     font-weight:bold;

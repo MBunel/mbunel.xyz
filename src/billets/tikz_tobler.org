@@ -1,7 +1,14 @@
 #+TITLE:Le modèle de marche de Tobler
+#+DATE: 2026-02-11
+#+OPTIONS: num:nil toc:nil
+#+cite_export: csl ../meta/chicago-author-date-fr.csl
+#+bibliography: ../meta/biblio.bib
+#+bibliography: ../meta/biblio_other.bib 
 #+FILETAGS: :tikz:
 
-Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur des données empirique de Imhof.
+Dans un article de 1993 [cite/author:@tobler1993] a proposé un modèle de marche basé sur des données empiriques de [cite:@imhof1950].
+
+La figure suivante est une reproduction en =tikz= de la figure originelle.
 
 #+ATTR_HTML: :class svgfig dayonly
 [[url_for_img:static,file=images/hiking_tobler_day.svg]]
@@ -9,10 +16,11 @@ Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur 
 #+ATTR_HTML: :class svgfig darkonly
 [[url_for_img:static,file=images/hiking_tobler_night.svg]]
 
+La figure a été générée avec le code suivant :
 
-#+HEADER: :headers '("\\usepackage{pgfplots}")
+#+HEADER: :headers '("\\usepackage{pgfplots}" "\\usepackage{siunitx}")
 #+HEADER: :imagemagick yes
-#+HEADER: :results none
+#+HEADER: :results none :exports both
 #+header: :file ../../_temp/static/images/hiking_tobler_day.svg
 #+BEGIN_SRC latex
 \pgfmathdeclarefunction{tobler}{1}{%
@@ -29,7 +37,7 @@ Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur 
     xlabel shift=-10pt,
     axis y line*=left,
     axis y line shift=10pt,
-    ylabel shift=10pt,
+    ylabel shift=-10pt,
     enlarge x limits=false,
     enlarge y limits=false,
     width=12cm, height=7cm,
@@ -53,12 +61,12 @@ Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur 
   \]
   
   where $W$ is the walking velocity, $S$ is  $dh/dx$ = slope = $\tan(\theta)$ ; $dh$ et $dx$ must be mesurated in the same units. 
-  The velocity is given in \si{\kilo\meter\per\hour}. On flat terrain this work out to 5 \si{\kilo\meter\per\hour}. For off-path trarvel multiply by $3/5$ (= 0,5). For horseback, multiply by $3/5$  (= 1,25). The travel time is computed as distance / velocity.
+  The velocity is given in \si{\kilo\meter\per\hour}. On flat terrain this work out to 5 \si{\kilo\meter\per\hour}. For off-path trarvel multiply by $3/5$ (= 0,5). For horseback, multiply by $3/5$  (= 1,25). The travel time is computed as distance /  velocity.
   };
 \end{tikzpicture}
 #+END_SRC
 
-#+HEADER: :headers '("\\usepackage{pgfplots}" "\\usepackage{xcolor}")
+#+HEADER: :headers '("\\usepackage{pgfplots}" "\\usepackage{xcolor}" "\\usepackage{siunitx}")
 #+HEADER: :imagemagick yes
 #+HEADER: :results none
 #+header: :file ../../_temp/static/images/hiking_tobler_night.svg
@@ -79,7 +87,7 @@ Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur 
     xlabel shift=-10pt,
     axis y line*=left,
     axis y line shift=10pt,
-    ylabel shift=10pt,
+    ylabel shift=-10pt,
     enlarge x limits=false,
     enlarge y limits=false,
     width=12cm, height=7cm,
@@ -107,3 +115,7 @@ Dans un article de 1993, Waldo Tobler a proposé un modèle de marche basé sur 
   };
 \end{tikzpicture}
 #+END_SRC
+
+* Références
+#+print_bibliography:
+

@@ -130,9 +130,13 @@
  :url "/static/{{ file }}")
 
 ;; ;; RSS
-;; (weblorg-route
-;;  :name "feed" :output "output/feed.xml"
-;;  :url "/feed.xml")
+ (weblorg-route
+  :name "feed"
+  :input-pattern "src/billets/*.org"
+  :input-aggregate #'weblorg-input-aggregate-all-desc
+  :template "feed.xml"
+  :output "output/feed.xml"
+  :url "/feed.xml")
 
 ;; Run export
 (make-directory "./_temp/static/images" t)
