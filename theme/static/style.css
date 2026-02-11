@@ -251,6 +251,7 @@ main {
     margin-left:auto;
     margin-right:auto;
     width:90%;
+    /* max-width: 70em; */
 }
 
 h1, h2, h3 {
@@ -491,7 +492,12 @@ img, iframe {
     max-width: 100%;
 }
 
-.coverfig > img {
+iframe {
+    height: 100%;
+    border: none;
+}
+
+.coverfig > * {
     width: 100%;
     margin-bottom: 3rem;
 }

@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+
 {% block meta %}
 <meta property="og:title" content="{{ post.title }}">
 <meta property="og:url" content="{{ post.url }}">
@@ -13,7 +14,7 @@
 {% elif project_image is defined %}
 <meta property="og:image" content="{{ project_image }}">
 {% endif %}
-<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="article">
 {% endblock %}
 
 {% block main %}
