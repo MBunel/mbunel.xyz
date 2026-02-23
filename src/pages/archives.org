@@ -2,13 +2,13 @@
 
 * 2026
 
-- *4 février 2026,* « Vers une modélisation floue de la gare perçue : entre infrastructure de transport, équipement urbain et espace vécu », présentation à la conférence [[https://theoquant2026.sciencesconf.org/?lang=fr][Théoquant]].
+- *4 février 2026,* /« Vers une modélisation floue de la gare perçue : entre infrastructure de transport, équipement urbain et espace vécu »/, présentation à la conférence [[https://theoquant2026.sciencesconf.org/?lang=fr][Théoquant]] (voir le [[https://theoquant2026.sciencesconf.org/data/pages/resumes_TQ2026PJ_V2.pdf#page=40][texte]]).
 - *30 janvier 2026,* Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][«  Du réel aux modèles : Concilier l’objectif d’abstraction et l’imprécision de l’information »]].
 - *26 janvier 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, quatrième séance : [[https://docs.google.com/presentation/d/1H9TlXGMJel79V0EpWARIu1g107rdz2WADpRccU1hENo/edit?usp=sharing][/Analyse géométrique/]].
 
 * 2025
 
-- *9 décembre 2025,* Workshop [[https://2025.computational-humanities-research.org/workshops/][/« Computational Notebooks for Digital Humanities/ »]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] ([[https://gitlab.huma-num.fr/gt-notebook/workshop/chr-2025][sources de l'atelier]]).
+- *9 décembre 2025,* Workshop [[https://2025.computational-humanities-research.org/workshops/][/« Computational Notebooks for Digital Humanities »/]] du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] ([[https://gitlab.huma-num.fr/gt-notebook/workshop/chr-2025][sources de l'atelier]]).
 - *2 décembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
 - *25 novembre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, seconde séance : [[https://docs.google.com/presentation/d/1tG9F9J4KKPJDRlzJWWCMar7epR3NKSAvoBBmeATGzqU/edit][/Géoréférencement et vectorisation/]].
 - *28 octobre 2025,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 1^er cycle 2025-2026, première séance : [[https://docs.google.com/presentation/d/1PuqaAyH8ng2SkYl9gkSrX6FZESwGzwor0YTMf_7SbYI/][/Introduction aux SIG/]].
@@ -31,4 +31,4 @@
   
 * 2023 
 
-- *29 juin 2023,* Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]].
+- *29 juin 2023,* Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][/« Big Data et données spatialisées »/]].
