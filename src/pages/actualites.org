@@ -5,9 +5,7 @@
 
 * À venir
 
-
-- *3 avril 2026,* Formation « Introduction à PostgreSQL / PostGIS »
-- *10 avril 2026,* Formation « Administer un serveur PostgreSQL »
+- *13 avril 2026,* Formation « Administer un serveur PostgreSQL »
 - *28 avril 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2025-2026, dernière séance : [[https://docs.google.com/presentation/d/1ELdykvQsMirQUK3ELks0uptEnEqJYNbgTMUbA7g4Ljo/edit][/Introduction à l'analyse spatiale/]].
 - *19 mai 2026,* /« Guix appliqué à la géomatique. Le cas de la reconstruction de bâtiments 3D »/, présentation aux [[https://jrfrr-2026.sciencesconf.org/][journées du réseau français de recherche reproductible.]]
 - *26 mai 2026,* [[https://psigehess.hypotheses.org/2994][Atelier SIG]] de la [[https://psigehess.hypotheses.org/][plateforme géomatique]]. 2^d cycle 2025-2026, quatrième séance : [[https://docs.google.com/presentation/d/1H9TlXGMJel79V0EpWARIu1g107rdz2WADpRccU1hENo/edit?usp=sharing][/Analyse géométrique/]].
