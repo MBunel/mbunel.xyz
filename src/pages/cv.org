@@ -18,16 +18,15 @@
 </div>
 #+END_EXPORT
 
-
-Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géograpie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
+Je suis [[rdf_link:property="foaf:name",about="#mbunel",typeof="foaf:Person"][Mattia Bunel]], géographe et géomaticien, actuellement ingénieur de recherche à l'[[rdf_link:about="#ehess",property="foaf:name",typeof="foaf:Organisation"][EHESS]] et à l'[[rdf_link:about="#gc",property="foaf:name",typeof="foaf:Organisation"][UMR Géographie-cités]], en charge de la [[https://psigehess.hypotheses.org/][plateforme géomatique]].
 
 
 * Parcours
 
-- 2016-2017, Ingénieur d'études, ERC WorldSeastem (CNRS)
-- 2017-2021, Doctorant, ANR [[https://anr.fr/Projet-ANR-16-CE23-0018][Choucas]] (IGN)
-- 2021-2024, Ingénieur d'études référent en charge des produits altimétriques (IGN)
 - 2024-… , Ingénieur de recherche en charge de la plateforme géomatique de l'EHESS (EHESS)
+- 2021-2024, Ingénieur d'études référent en charge des produits altimétriques (IGN)
+- 2017-2021, Doctorant, ANR [[https://anr.fr/Projet-ANR-16-CE23-0018][Choucas]] (IGN)
+- 2016-2017, Ingénieur d'études, ERC WorldSeastem (CNRS)
 
 * Travaux de recherche
 
@@ -102,36 +101,41 @@ support scientifique et technique sur cette question.
 
 ** Participation à des projets de recherche
 
-- 2016-2017, ERC WorldSeastem (ERC n^o [[https://cordis.europa.eu/project/id/313847/fr][313847]], coord. César Ducruet) 
-- 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond,]] LaSTIG, Univ. Gustave Eiffel, IGN, ENSG)
-- 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]], UMR Géographie-cités, CNRS)
+- 2016-2017, ERC WorldSeastem (ERC n^o [[https://cordis.europa.eu/project/id/313847/fr][313847]], coord. César Ducruet).
+- 2017-2022, ANR CHOUCAS ([[https://anr.fr/Projet-ANR-16-CE23-0018][ANR-16-CE23-0018]], coord. [[https://orcid.org/0000-0002-1101-1333][Ana-Maria Olteanu-Raimond,]] LaSTIG, Univ. Gustave Eiffel, IGN, ENSG).
+- 2025-… , ANR OCEANLINKS (coord. [[https://orcid.org/0000-0002-2968-9038][Marion Maisonobe]], UMR Géographie-cités, CNRS).
+- 2026-… , C-PARLA ([[https://www.pamir.fr/projets-soutenus/c-parla/][IDF-DIM-PAMIR-2026-7-001]], coord. [[https://www.umr-lastig.fr/nathalie-abadie/][Nathalie Abbadie]], LaSTIG, Univ. Gustave Eiffel, IGN, ENSG et [[https://crh.ehess.fr/index.php/mouseion/article/view/crh.ehess.fr/crh.ehess.fr/docannexe/file/9936/crh.ehess.fr/www.univ-rennes2.fr/docannexe/fichier/1088/index.php?5206][Bertrand Duménieu]], CRH, EHESS).
 
 ** Évaluations  :noexport:
 
 + 2021 Revue Geomatica
 + 2022 Hypelion
++ 2026 Programming Historians
 
 ** Évènements organisés
-+ 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles »]] (co-organisation avec [[https://orcid.org/0009-0005-0983-388X][Marion Albertelli]], AME-SPLOTT)
-+ 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][« /Computational Notebooks for Digital Humanities/ »]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] (co-organisation dans le cadre du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]])
-+ 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]] (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LaSTIG, Univ. Gustave Eiffel, IGN, ENSG)
++ 2026, Journée d'étude [[https://dphn.parisgeo.cnrs.fr/journee/modeliser_le_reel.html][« Du réel aux modèles »]] (co-organisation avec [[https://orcid.org/0009-0005-0983-388X][Marion Albertelli]], AME-SPLOTT).
++ 2025, Workshop [[https://2025.computational-humanities-research.org/workshops/][« /Computational Notebooks for Digital Humanities/ »]] à la conférence [[https://2025.computational-humanities-research.org/][CRH 2025]] (co-organisation dans le cadre du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]]).
++ 2023, Journée d'étude [[https://mbunel.github.io/journee-BigDataGeographiques-2023/][« Big Data et données spatialisées »]] (co-organisation avec [[https://orcid.org/0000-0002-8676-8058][Laurent Caraffa]], LaSTIG, Univ. Gustave Eiffel, IGN, ENSG).
 
 ** Animation de réseaux scientifiques
 
 - 2024-… , co-animateur du [[https://gt-notebook.gitpages.huma-num.fr/site_quarto/][GT Notebook]].
 - 2024-… , co-animateur de la transversalité [[https://dphn.parisgeo.cnrs.fr/][/« Données et protocoles dans les humanités numériques »/]] de l'UMR [[https://geographie-cites.cnrs.fr/][Géographie-cités]].
+- /À venir (2027),/ co-animateur de l'action de recherche « incertitude épistémique » du GDR MaGIS.
   
 * Responsabilités 
 
 - 2024-… , co-responsable de la [[https://psigehess.hypotheses.org/][plateforme géomatique et humanités numériques]] de l'EHESS. 
 - 2026-… , référent du pôle géomatique de l'UMR Géographie-cités.
- 
+- 2026-… , référent science ouverte et HAL de l’UMR Géographie-cités (par intérim).
+  
 * Enseignements :noexport:
 
 Voir la [[url_for:pages,slug=cours][liste complète]].
 
 * Encadrement 
 
+- *Bertille Bogino,* 2026. « Analyse et visualisation des trajectoires de bateaux impliqués dans le Vendée Globe Virtuel dans le jeu Virtual Regatta » (stage professionnel du master 1 /Carthagéo/), en co-direction avec [[https://www.pantheonsorbonne.fr/page-perso/clarisse.didelon-loiseau%40][Clarisse Didelon-Loiseau]].
 - *Gaspard Delvolvé,* 2024. « Identification et sémantisation des évolutions temporelles entre acquisitions LiDAR » (stage professionnel du master 2 /Télédétection et géomatique appliquées à l’environnement/ [TGAE]), en co-direction avec [[https://www.umr-lastig.fr/clement-mallet/][Clément Mallet]] [cite:voir;@Delvolve2025;@Delvolve2025a].
 - *Matthieu Ahr,* 2023. « Identification et sémantisation des évolutions temporelles d'un MNT » (stage court de développement numérique du master 2 Carthagéo), en co-direction avec [[https://www.umr-lastig.fr/Ana-Maria-Raimond-homepage/][Ana-Maria Olteanu-Raimond]]. 
 - *Grégoire Bonhoure* et *Tiphaine Jouan,* 2019. « Identification et analyse de relations de localisation et d'objets de référence utilisés dans le contexte du secours en montagne » (stage court de recherche du master 2 /Information géographique : Analyse spatiale et télédétection/ [IGAST]), en co-direction avec [[https://www.umr-lastig.fr/cecile-duchene/][Cécile Duchêne]] [cite:voir;@Bunel2019]. 
