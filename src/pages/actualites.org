@@ -4,9 +4,8 @@
 #+OPTIONS: toc:nil num:nil
 
 * À venir
+- *17 novembre 2026,* Atelier /Incertitudes et imprécisions en géomatique,/ ([[https://sageo2026.sciencesconf.org/][SAGEO 2026]]).
 
-- *25 juin 2026,* /Le Street Art et Marseille/, balade urbaine dans le cadre de l'événement [[https://www.ehess.fr/jcms/186929_JEvent/fr/habiter-raconter-partager-les-mediterranees][Habiter, Raconter, Partager... les méditerranées]].
-  
 * Archives
 #+INCLUDE: "archives.org" :lines "2-" :minlevel 2
 
